@@ -91,6 +91,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#hasPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#hasPart"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -2429,7 +2435,7 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Preparation"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pre-Testing_Phase"/>
     </owl:Class>
     
 
@@ -2438,6 +2444,12 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Preparation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pre-Testing_Phase"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#hasPart"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Preparation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
