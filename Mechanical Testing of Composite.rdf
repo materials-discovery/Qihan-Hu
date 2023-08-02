@@ -431,6 +431,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acceleration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents a physical quantity that measures the rate of change of velocity of a material or object. It is an important parameter in mechanical testing to assess the material&apos;s response to dynamic forces.</rdfs:comment>
+        <rdfs:label>Acceleration</rdfs:label>
     </owl:Class>
     
 
@@ -519,10 +521,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Angular -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Angular_Orientation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Angular">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Angular_Orientation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:comment>Represents the orientation of a material with respect to a specific angle or direction.</rdfs:comment>
+        <rdfs:label>Angular Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -531,6 +535,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Applied_Electric_Field">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electric_Field"/>
+        <rdfs:comment>Represents the external electric field that is intentionally applied to a material.</rdfs:comment>
+        <rdfs:label>Applied Electric Field</rdfs:label>
     </owl:Class>
     
 
@@ -539,6 +545,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Applied_Magnetic_Field">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Magnetic_Field"/>
+        <rdfs:comment>Represents the external magnetic field that is intentionally applied to a material.</rdfs:comment>
+        <rdfs:label>Applied Magnetic Field</rdfs:label>
     </owl:Class>
     
 
@@ -607,6 +615,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Axial_Displacement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Displacement"/>
+        <rdfs:comment>Represents the displacement or movement of a material, along the axis of the applied force or load.</rdfs:comment>
+        <rdfs:label>Axial Displacement</rdfs:label>
     </owl:Class>
     
 
@@ -633,6 +643,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Axial_Strain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain"/>
+        <rdfs:comment>Represents the change in length or deformation along the longitudinal axis of a material under an applied axial load.</rdfs:comment>
+        <rdfs:label>Axial Strain</rdfs:label>
     </owl:Class>
     
 
@@ -965,6 +977,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Coating_Thickness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thickness"/>
+        <rdfs:comment>Represents the measurement of the thickness of a coating or layer applied on the surface of a material.</rdfs:comment>
+        <rdfs:label>Coating Thickness</rdfs:label>
     </owl:Class>
     
 
@@ -1031,6 +1045,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compressive_Load">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Load"/>
+        <rdfs:comment>Represents the external force or load applied to a material, in a direction that tends to compress or shorten the material along its axis.</rdfs:comment>
+        <rdfs:label>Compressive Load</rdfs:label>
     </owl:Class>
     
 
@@ -1047,6 +1063,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compressive_Strain_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Rate"/>
+        <rdfs:comment>Represents the rate at which a material undergoes compressive strain or deformation over time.</rdfs:comment>
+        <rdfs:label>Compressive Strain Rate</rdfs:label>
     </owl:Class>
     
 
@@ -1063,6 +1081,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compressive_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stress"/>
+        <rdfs:comment>Represents the internal resistance or force per unit area that a material experiences when subjected to compressive forces.</rdfs:comment>
+        <rdfs:label>Compressive Stress</rdfs:label>
     </owl:Class>
     
 
@@ -1211,6 +1231,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Time">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Time"/>
+        <rdfs:comment>Represents the time duration during which a material is subjected to a constant load or stress.</rdfs:comment>
+        <rdfs:label>Creep Time</rdfs:label>
     </owl:Class>
     
 
@@ -1237,6 +1259,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cyclic_Loading_Frequency">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Frequency"/>
+        <rdfs:comment>Represents the rate or frequency at which cyclic loading or repeated stress is applied to a material.</rdfs:comment>
+        <rdfs:label>Cyclic Loading Frequency</rdfs:label>
     </owl:Class>
     
 
@@ -1367,6 +1391,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Displacement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents a physical quantity that measures the change in position of a material or object. It is a key parameter in mechanical testing to determine material deformation and behavior under applied loads.</rdfs:comment>
+        <rdfs:label>Displacement</rdfs:label>
     </owl:Class>
     
 
@@ -1417,6 +1443,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dry_Condition">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Moisture_Content"/>
+        <rdfs:comment>Represents the state or condition of a material, when it is free from moisture or water content.</rdfs:comment>
+        <rdfs:label>Dry Condition</rdfs:label>
     </owl:Class>
     
 
@@ -1479,6 +1507,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electric_Field">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents a physical quantity that describes the intensity of an electric force experienced by charged particles in a material.</rdfs:comment>
+        <rdfs:label>Electric Field</rdfs:label>
     </owl:Class>
     
 
@@ -1487,6 +1517,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electric_Potential">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electric_Field"/>
+        <rdfs:comment>Represents the electrical potential or voltage difference between two points in a material.</rdfs:comment>
+        <rdfs:label>Electric Potential</rdfs:label>
     </owl:Class>
     
 
@@ -1495,6 +1527,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Power">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Power"/>
+        <rdfs:comment>Represents the amount of electrical energy consumed, generated, or transferred by a system.</rdfs:comment>
+        <rdfs:label>Electrical Power</rdfs:label>
     </owl:Class>
     
 
@@ -1691,6 +1725,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Load">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Load"/>
+        <rdfs:comment>Represents the external force or load applied to a material, to cause bending or flexural deformation.</rdfs:comment>
+        <rdfs:label>Flexural Load</rdfs:label>
     </owl:Class>
     
 
@@ -1715,6 +1751,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stress"/>
+        <rdfs:comment>Represents the internal resistance or force per unit area that a material experiences when subjected to bending forces.</rdfs:comment>
+        <rdfs:label>Flexural Stress</rdfs:label>
     </owl:Class>
     
 
@@ -1773,6 +1811,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Frequency">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents a physical quantity that measures the number of occurrences of a periodic event or vibration per unit of time.</rdfs:comment>
+        <rdfs:label>Frequency</rdfs:label>
     </owl:Class>
     
 
@@ -1781,6 +1821,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Full-Bridge_Configuration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Gauge_Configuration"/>
+        <rdfs:comment>Represents a configuration of strain gauges or sensors in which all four arms of the Wheatstone bridge circuit are active. The full-bridge configuration is commonly used for accurate measurement of strain in mechanical testing and structural monitoring applications.</rdfs:comment>
+        <rdfs:label>Full-Bridge Configuration</rdfs:label>
     </owl:Class>
     
 
@@ -1900,6 +1942,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Half-Bridge_Configuration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Gauge_Configuration"/>
+        <rdfs:comment>Represents a configuration of strain gauges or sensors in which only two arms of the Wheatstone bridge circuit are active.</rdfs:comment>
+        <rdfs:label>Half-Bridge Configuration</rdfs:label>
     </owl:Class>
     
 
@@ -2015,7 +2059,10 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Humidity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Humidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Environment"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the amount of water vapor present in the air or atmosphere. Humidity is typically measured as a percentage, indicating the relative amount of water vapor compared to the maximum amount the air can hold at a specific temperature.</rdfs:comment>
+        <rdfs:label>Humidty</rdfs:label>
     </owl:Class>
     
 
@@ -2151,6 +2198,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Impact_Acceleration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acceleration"/>
+        <rdfs:comment>Represents the rate of change of velocity experienced by a material due to an impact or suddene application of force.</rdfs:comment>
+        <rdfs:label>Impact Acceleration</rdfs:label>
     </owl:Class>
     
 
@@ -2159,6 +2208,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Impact_Load">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Load"/>
+        <rdfs:comment>Represents the sudden and intense external force or load applied to a material, in a short duration.</rdfs:comment>
+        <rdfs:label>Impact Load</rdfs:label>
     </owl:Class>
     
 
@@ -2365,6 +2416,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Lateral_Displacement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Displacement"/>
+        <rdfs:comment>Represents the displacement or movement of a material, in a direction perpendicular to the applied force or load.</rdfs:comment>
+        <rdfs:label>Lateral Displacement</rdfs:label>
     </owl:Class>
     
 
@@ -2373,6 +2426,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Lateral_Strain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain"/>
+        <rdfs:comment>Represents the change in width or deformation perpendicular to the longitudinal axis of a material under an applied load.</rdfs:comment>
+        <rdfs:label>Lateral Strain</rdfs:label>
     </owl:Class>
     
 
@@ -2405,6 +2460,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Load">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the force or weight applied to a material.</rdfs:comment>
+        <rdfs:label>Load</rdfs:label>
     </owl:Class>
     
 
@@ -2413,6 +2470,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Loading_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Time"/>
+        <rdfs:comment>Represents the rate at which an external load or stress is applied to a material during test.</rdfs:comment>
+        <rdfs:label>Loading Rate</rdfs:label>
     </owl:Class>
     
 
@@ -2425,10 +2484,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Longitudinal -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Longitudinal_Orientation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Longitudinal">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Longitudinal_Orientation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:comment>Represents the orientation of a material along its longitudinal axis.</rdfs:comment>
+        <rdfs:label>Longitudinal Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -2497,6 +2558,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Magnetic_Field">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents a physical quantity that describes the intensity and direction of a magnetic force experienced by magnetic materials.</rdfs:comment>
+        <rdfs:label>Magnetic Field</rdfs:label>
     </owl:Class>
     
 
@@ -2505,6 +2568,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Magnetic_Flux_Density">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Magnetic_Field"/>
+        <rdfs:comment>Represents the measure of magnetic field strength or magnetic flux per unit area of a material.</rdfs:comment>
+        <rdfs:label>Magnetic Flux Density</rdfs:label>
     </owl:Class>
     
 
@@ -2541,6 +2606,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Mechanical_Power">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Power"/>
+        <rdfs:comment>Represents the amount of mechanical energy consumed, generated, or transferred by a system.</rdfs:comment>
+        <rdfs:label>Mechanical Power</rdfs:label>
     </owl:Class>
     
 
@@ -2625,6 +2692,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Moisture_Absorption">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Moisture_Content"/>
+        <rdfs:comment>Represents the process of a material absorbing moisture or water from its surroundings.</rdfs:comment>
+        <rdfs:label>Moisture Absorption</rdfs:label>
     </owl:Class>
     
 
@@ -2633,6 +2702,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Moisture_Content">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the amount of water or moisture present in a material.</rdfs:comment>
+        <rdfs:label>Moisture Content</rdfs:label>
     </owl:Class>
     
 
@@ -2755,10 +2826,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Off-axis -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Off-axis_Orientation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Off-axis">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Off-axis_Orientation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:comment>Represents the orientation of a material at an angle other than the primary axis or longitudinal direction.</rdfs:comment>
+        <rdfs:label>Off-Axis Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -2793,6 +2866,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the specific direction or alignment of fibers or particles within a composite material specimen.</rdfs:comment>
+        <rdfs:label>Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -2825,10 +2900,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Parallel -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Parallel_Orientation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Parallel">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Parallel_Orientation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:comment>Represents the orientation of a material aligned parallel to a specific reference direction or axis.</rdfs:comment>
+        <rdfs:label>Parallel Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -2849,10 +2926,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Perpendicular -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Perpendicular_Orientation -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Perpendicular">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Perpendicular_Orientation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:comment>Represents the orientation of a material aligned perpendicular to a specific reference direction or axis.</rdfs:comment>
+        <rdfs:label>Perpendicular Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -2923,6 +3002,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Power">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the rate at which work is done or energy is transferred or converted in a material or system.</rdfs:comment>
+        <rdfs:label>Power</rdfs:label>
     </owl:Class>
     
 
@@ -3022,6 +3103,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Quarter-Bridge_Configuration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Gauge_Configuration"/>
+        <rdfs:comment>Represents a configuration of strain gauges or sensors in which only one arm of the Wheatstone bridge circuit is active.</rdfs:comment>
+        <rdfs:label>Quarter-Bridge Configuration</rdfs:label>
     </owl:Class>
     
 
@@ -3034,18 +3117,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial_Filament_Winding -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial_Filament_Winding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Filament_Winding_Processes"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial_Orientation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial_Orientation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:label>Radial Orientation</rdfs:label>
+        <rdfs:label>Represents the orientation of a material along radial lines emanating from a central point.</rdfs:label>
     </owl:Class>
     
 
@@ -3096,6 +3181,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Relative_Humidity_Level">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Humidity"/>
+        <rdfs:comment>Represents the percentage of water vapor present in the air relative to the maximum amount of water vapor the air can hold at a specific temperature and pressure.</rdfs:comment>
+        <rdfs:label>Relative Humidity Level</rdfs:label>
     </owl:Class>
     
 
@@ -3104,6 +3191,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Relaxation_Time">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Time"/>
+        <rdfs:comment>Represents the time duration during which a material relaxes or recovers from a previous load or stress.</rdfs:comment>
+        <rdfs:label>Relaxation Time</rdfs:label>
     </owl:Class>
     
 
@@ -3160,6 +3249,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resonance_Frequency">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Frequency"/>
+        <rdfs:comment>Represents the frequency at which a material, exhibits maximum vibrational amplitude or response when subjected to external vibrations or oscillations.</rdfs:comment>
+        <rdfs:label>Resonance Frequency</rdfs:label>
     </owl:Class>
     
 
@@ -3350,6 +3441,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Load">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Load"/>
+        <rdfs:comment>Represents the external force or load applied to a material, in a direction that causes the material to slide or deform along parallel planes.</rdfs:comment>
+        <rdfs:label>Shear Load</rdfs:label>
     </owl:Class>
     
 
@@ -3366,6 +3459,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Strain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain"/>
+        <rdfs:comment>Represents the change in shape or deformation due to the applied force parallel to the cross-sectional plane of a material.</rdfs:comment>
+        <rdfs:label>Shear Strain</rdfs:label>
     </owl:Class>
     
 
@@ -3374,6 +3469,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Strain_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Rate"/>
+        <rdfs:comment>Represents the rate at which a material undergoes shear strain or deformation over time.</rdfs:comment>
+        <rdfs:label>Shear Strain Rate</rdfs:label>
     </owl:Class>
     
 
@@ -3390,6 +3487,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stress"/>
+        <rdfs:comment>Represents the internal resistance or force per unit area that a material experiences when subjected to shear forces.</rdfs:comment>
+        <rdfs:label>Shear Stress</rdfs:label>
     </owl:Class>
     
 
@@ -3513,6 +3612,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Thickness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thickness"/>
+        <rdfs:comment>Represents the measurement of the thickness of a material specimen.</rdfs:comment>
+        <rdfs:label>Specimen Thickness</rdfs:label>
     </owl:Class>
     
 
@@ -3572,6 +3673,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the amount of deformation experienced by a material.</rdfs:comment>
+        <rdfs:label>Strain</rdfs:label>
     </owl:Class>
     
 
@@ -3590,6 +3693,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Gauge_Configuration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the arrangement or configuration of strain gauges on a material or structure.</rdfs:comment>
+        <rdfs:label>Strain Gauge Configuration</rdfs:label>
     </owl:Class>
     
 
@@ -3598,6 +3703,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the rate at which strain is applied or changes over time in a material.</rdfs:comment>
+        <rdfs:label>Strain Rate</rdfs:label>
     </owl:Class>
     
 
@@ -3614,6 +3721,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the internal force or load per unit area experienced by a material.</rdfs:comment>
+        <rdfs:label>Stress</rdfs:label>
     </owl:Class>
     
 
@@ -3687,6 +3796,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Load">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Load"/>
+        <rdfs:comment>Represents the external force or load applied to a material, in a direction that tends to stretch or elongate the material along its axis.</rdfs:comment>
+        <rdfs:label>Tensile Load</rdfs:label>
     </owl:Class>
     
 
@@ -3703,6 +3814,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Strain_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain_Rate"/>
+        <rdfs:comment>Represents the rate at which a material undergoes tensile strain or deformation over time.</rdfs:comment>
+        <rdfs:label>Tensile Strain Rate</rdfs:label>
     </owl:Class>
     
 
@@ -3719,6 +3832,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stress"/>
+        <rdfs:comment>Represents the internal resistance or force per unit area that a material experiences when subjected to tensile forces.</rdfs:comment>
+        <rdfs:label>Tensile Stress</rdfs:label>
     </owl:Class>
     
 
@@ -3735,6 +3850,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Duration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Time"/>
+        <rdfs:comment>Represents the total time duration of a mechanical test performed on a material.</rdfs:comment>
+        <rdfs:label>Test Duration</rdfs:label>
     </owl:Class>
     
 
@@ -3764,6 +3881,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#In-Testing_Phase"/>
         <rdfs:comment>Test parameters are specific variables or factors that directly affect the behavior and outcome of the mechanical test on composite materials. These parameters are under direct control and are intentionally set to evaluate particular material properties or behaviors during the test.</rdfs:comment>
+        <rdfs:label>Test Parameter</rdfs:label>
     </owl:Class>
     
 
@@ -3913,6 +4031,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thickness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the distance between the two surfaces of a material.</rdfs:comment>
+        <rdfs:label>Thickness</rdfs:label>
     </owl:Class>
     
 
@@ -3939,6 +4059,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Time">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the duration or period during which a specific process, or measurement occurs in a material.</rdfs:comment>
+        <rdfs:label>Time</rdfs:label>
     </owl:Class>
     
 
@@ -4015,18 +4137,22 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse_Displacement -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse_Displacement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Displacement"/>
+        <rdfs:comment>Represents the displacement or movement of a material, perpendicular to the axis of the applied force or load.</rdfs:comment>
+        <rdfs:label>Transverse Displacement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse_Orientation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse_Orientation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Orientation"/>
+        <rdfs:comment>Represents the orientation of a material aligned perpendicular to the primary axis or longitudinal direction.</rdfs:comment>
+        <rdfs:label>Transverse Orientation</rdfs:label>
     </owl:Class>
     
 
@@ -4035,6 +4161,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transverse_Strain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strain"/>
+        <rdfs:comment>Represents the change in size or deformation perpendicular to the applied load direction in a material.</rdfs:comment>
+        <rdfs:label>Transverse Strain</rdfs:label>
     </owl:Class>
     
 
@@ -4256,6 +4384,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vibrational_Acceleration">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acceleration"/>
+        <rdfs:comment>Represents the acceleration experienced by a material due to vibrational or oscillatory motion.</rdfs:comment>
+        <rdfs:label>Vibrational Acceleration</rdfs:label>
     </owl:Class>
     
 
@@ -4264,6 +4394,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vibrational_Frequency">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Frequency"/>
+        <rdfs:comment>Represents the frequency at which a material, exhibits vibrations or oscillations when subjected to external forces or excitations.</rdfs:comment>
+        <rdfs:label>Vibrational Frequency</rdfs:label>
     </owl:Class>
     
 
@@ -4356,6 +4488,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Wet_Condition">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Moisture_Content"/>
+        <rdfs:comment>Represents the state or condition of a material, when it is exposed to or saturated with moisture or water.</rdfs:comment>
+        <rdfs:label>Wet Condition</rdfs:label>
     </owl:Class>
     
 
@@ -4380,6 +4514,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#pH">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Parameter"/>
+        <rdfs:comment>Represents the measure of acidity or alkalinity of material.</rdfs:comment>
+        <rdfs:label>pH, Acidity, Potential of Hydrogen</rdfs:label>
     </owl:Class>
     
 
@@ -4388,6 +4524,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acidity/Alkalinity_Level">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#pH"/>
+        <rdfs:comment>Represents the measure of the acidity or alkalinity of a substance, typically expressed as pH value.</rdfs:comment>
+        <rdfs:label>Acidity/Alkalinity Level</rdfs:label>
     </owl:Class>
     
 
