@@ -266,6 +266,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D256">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Impact_Testing"/>
+        <rdfs:comment>Represents a specific ASTM standard titled &quot;Standard Test Methods for Determining the Izod Pendulum Impact Resistance of Plastics&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D256</rdfs:label>
     </owl:Class>
     
 
@@ -274,6 +276,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D2990">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Testing"/>
+        <rdfs:comment>ASTM D2990</rdfs:comment>
+        <rdfs:comment>Represents a specific ASTM standard titled &quot;Standard Test Methods for Tensile, Compressive, and Flexural Creep and Creep-Rupture of PlasticS&quot;.</rdfs:comment>
     </owl:Class>
     
 
@@ -283,7 +287,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D3039">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_Standards"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Testing"/>
-        <rdfs:comment>Standard Test Method for Tensile Properties of Polymer Matrix Composite Materials</rdfs:comment>
+        <rdfs:comment>Represents a Standard Test Method for Tensile Properties of Polymer Matrix Composite Materials</rdfs:comment>
+        <rdfs:label>ASTM D3039</rdfs:label>
     </owl:Class>
     
 
@@ -292,6 +297,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D3167">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Peel_Testing"/>
+        <rdfs:comment>Represents a specific ASTM standard that outlines the test method for measuring the peel strength of adhesives and adhesive-coated materials.</rdfs:comment>
+        <rdfs:label>ASTM D3167</rdfs:label>
     </owl:Class>
     
 
@@ -300,6 +307,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D3410">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Testing"/>
+        <rdfs:comment>Represents a specific ASTM standard titled &quot;Standard Test Method for Compressive Properties of Polymer Matrix Composite Materials&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D3410</rdfs:label>
     </owl:Class>
     
 
@@ -308,6 +317,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D3479">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Testing"/>
+        <rdfs:comment>Represents a specific ASTM standard titled &quot;Standard Test Method for Tension-Tension Fatigue of Polymer Matrix Composite Materials&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D3479</rdfs:label>
     </owl:Class>
     
 
@@ -325,6 +336,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D5045">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#End-Notched_Flexure_Specimen"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fracture_Toughness_Testing"/>
+        <rdfs:comment>Represents a specific ASTM standard titled &quot;Standard Test Method for Plane-Strain Fracture Toughness of Metallic Materials&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D5045</rdfs:label>
     </owl:Class>
     
 
@@ -335,7 +348,8 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_Standards"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Testing"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#V-Notched_Beam_Specimen"/>
-        <rdfs:comment>Standard Test Method for Shear Properties of Composite Materials by the V-Notched Beam Method</rdfs:comment>
+        <rdfs:comment>Represents the Standard Test Method for Shear Properties of Composite Materials by the V-Notched Beam Method</rdfs:comment>
+        <rdfs:label>ASTM D5379</rdfs:label>
     </owl:Class>
     
 
@@ -360,6 +374,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D5868">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear-Lap_Testing"/>
+        <rdfs:comment>Represents a specific ASTM standard that provides the test method for measuring the lap shear strength of adhesively bonded metal specimens.</rdfs:comment>
+        <rdfs:label>ASTM D5868</rdfs:label>
     </owl:Class>
     
 
@@ -385,9 +401,10 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D790">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_Standards"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cantilever_Beam_Specimen"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flxural_Testing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Testing"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Three-Point_Bending_Specimen"/>
         <rdfs:comment>Standard Test Methods for Flexural Properties of Unreinforced and Reinforced Plastics and Electrical Insulating Materials</rdfs:comment>
+        <rdfs:label>ASYM D790</rdfs:label>
     </owl:Class>
     
 
@@ -396,6 +413,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_E399">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fracture_Toughness_Testing"/>
+        <rdfs:label>ASTM E399</rdfs:label>
+        <rdfs:label>Represents a specific ASTM standard titled &quot;Standard Test Method for Plane-Strain Fracture Toughness of Metallic Materials&quot;.</rdfs:label>
     </owl:Class>
     
 
@@ -404,7 +423,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>American Society for Testing and Materials</rdfs:comment>
+        <rdfs:label>American Society for Testing and Materials (ASTM)</rdfs:label>
     </owl:Class>
     
 
@@ -670,6 +689,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_EN_ISO_14125">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of flexural properties</rdfs:comment>
+        <rdfs:label>BS EN ISO 14125</rdfs:label>
     </owl:Class>
     
 
@@ -679,6 +699,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_EN_ISO_178">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_Standards"/>
         <rdfs:comment>Plastics - Determination of Flexural Properties</rdfs:comment>
+        <rdfs:label>BS EN ISO 178</rdfs:label>
     </owl:Class>
     
 
@@ -688,6 +709,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_EN_ISO_527">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_Standards"/>
         <rdfs:comment>Plastics - Determination of Tensile Properties</rdfs:comment>
+        <rdfs:label>BS EN ISO 527</rdfs:label>
     </owl:Class>
     
 
@@ -696,7 +718,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BS_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>British Standards</rdfs:comment>
+        <rdfs:label>British Standards (BS)</rdfs:label>
     </owl:Class>
     
 
@@ -795,6 +817,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Brinell_Hardness_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness_Testing"/>
+        <rdfs:comment>Represents a type of hardness testing method used to determine the hardness of materials, by indenting a hard ball indenter into the material&apos;s surface under a specified load.</rdfs:comment>
+        <rdfs:label>Brinell Hardness Testing</rdfs:label>
     </owl:Class>
     
 
@@ -1037,6 +1061,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a testing method used to evaluate the mechanical properties of materials under compressive loads.</rdfs:comment>
+        <rdfs:label>Compression Testing</rdfs:label>
     </owl:Class>
     
 
@@ -1213,6 +1239,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to study the time-dependent deformation behavior of materials, when subjected to a constant load or stress over an extended period.</rdfs:comment>
+        <rdfs:label>Creep Testing</rdfs:label>
     </owl:Class>
     
 
@@ -1280,6 +1308,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_EN_ISO_14125">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of flexural properties</rdfs:comment>
+        <rdfs:label>DIN EN ISO 14125</rdfs:label>
     </owl:Class>
     
 
@@ -1289,6 +1318,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_EN_ISO_178">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_Standards"/>
         <rdfs:comment>Plastics - Determination of Flexural Properties</rdfs:comment>
+        <rdfs:label>DIN EN ISO 178</rdfs:label>
     </owl:Class>
     
 
@@ -1298,6 +1328,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_EN_ISO_527">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_Standards"/>
         <rdfs:comment>Plastics - Determination of Tensile Properties</rdfs:comment>
+        <rdfs:label>DIN EN ISO 527</rdfs:label>
     </owl:Class>
     
 
@@ -1306,7 +1337,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#DIN_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>Deutsches Institut für Normung</rdfs:comment>
+        <rdfs:label>Deutsches Institut für Normung (DIN)</rdfs:label>
     </owl:Class>
     
 
@@ -1472,6 +1503,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_2561">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_Standards"/>
         <rdfs:comment>Aerospace series - Fibre reinforced plastics - Determination of compressive strength after impact</rdfs:comment>
+        <rdfs:label>EN 2561</rdfs:label>
     </owl:Class>
     
 
@@ -1481,6 +1513,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_ISO_13003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of fatigue properties</rdfs:comment>
+        <rdfs:label>EN ISO 13003</rdfs:label>
     </owl:Class>
     
 
@@ -1490,6 +1523,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_ISO_14125">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of flexural properties</rdfs:comment>
+        <rdfs:label>EN ISO 14125</rdfs:label>
     </owl:Class>
     
 
@@ -1498,7 +1532,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#EN_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>European Norms</rdfs:comment>
+        <rdfs:label>European Norms (EN)</rdfs:label>
     </owl:Class>
     
 
@@ -1657,6 +1691,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to evaluate the fatigue behavior and durability of materials under cyclic loading conditions.</rdfs:comment>
+        <rdfs:label>Fatigue Testing</rdfs:label>
     </owl:Class>
     
 
@@ -1757,20 +1793,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Testing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Testing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to evaluate the flexural or bending properties of materials.</rdfs:comment>
+        <rdfs:label>Flexural Testing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fluids -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fluids">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Medium"/>
         <rdfs:comment>Represents the medium of the testing environment for mechanical testing of composite material specimens. It includes various types of liquids or gases used as testing mediums, such as water, oil, or gases other than air.</rdfs:comment>
         <rdfs:label>Fluids</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flxural_Testing -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flxural_Testing">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
     </owl:Class>
     
 
@@ -1803,6 +1841,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fracture_Toughness_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to measure the fracture toughness of materials.</rdfs:comment>
+        <rdfs:label>Fracture Toughness Testing</rdfs:label>
     </owl:Class>
     
 
@@ -1849,6 +1889,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_R_ISO_14125">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of flexural properties</rdfs:comment>
+        <rdfs:label>GOST R ISO 14125</rdfs:label>
     </owl:Class>
     
 
@@ -1858,6 +1899,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_R_ISO_178">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_Standards"/>
         <rdfs:comment>Plastics - Determination of Flexural Properties</rdfs:comment>
+        <rdfs:label>GOST R ISO 178</rdfs:label>
     </owl:Class>
     
 
@@ -1867,6 +1909,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_R_ISO_527">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_Standards"/>
         <rdfs:comment>Plastics - Determination of Tensile Properties</rdfs:comment>
+        <rdfs:label>GOST R ISO 527</rdfs:label>
     </owl:Class>
     
 
@@ -1875,7 +1918,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#GOST_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>Gosudarstvennye Standarty - Russian Standards</rdfs:comment>
+        <rdfs:label>Gosudarstvennye Standarty - Russian Standards (GOST)</rdfs:label>
     </owl:Class>
     
 
@@ -2002,6 +2045,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:label>Hardness Testing</rdfs:label>
     </owl:Class>
     
 
@@ -2010,6 +2054,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Heat_Deflection_Temperature_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Testing"/>
+        <rdfs:comment>Represents a type of thermal testing used to determine the heat deflection temperature (HDT) of materials.</rdfs:comment>
+        <rdfs:label>Heat Deflection Temperature</rdfs:label>
     </owl:Class>
     
 
@@ -2097,6 +2143,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_13003">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Testing"/>
+        <rdfs:comment>Represents a specific ISO standard titled &quot;Fibre-Reinforced Plastic Composites - Determination of Flexural Properties&quot;.</rdfs:comment>
+        <rdfs:label>ISO 13003</rdfs:label>
     </owl:Class>
     
 
@@ -2122,6 +2170,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_14126">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Testing"/>
+        <rdfs:comment>Represents a specific ISO standard titled &quot;Fibre-Reinforced Plastic Composites - Determination of Apparent Interlaminar Shear Strength by Short-Beam Method&quot;.</rdfs:comment>
+        <rdfs:label>ISO 14126</rdfs:label>
     </owl:Class>
     
 
@@ -2130,6 +2180,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_14129">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Testing"/>
+        <rdfs:comment>Represents a specific ISO standard that specifies the test method for determining the in-plane shear properties of continuous fiber-reinforced composite materials.</rdfs:comment>
+        <rdfs:label>ISO 14129</rdfs:label>
     </owl:Class>
     
 
@@ -2142,6 +2194,7 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_Standards"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#V-Notched_Beam_Specimen"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of shear properties by the plate twist method</rdfs:comment>
+        <rdfs:label>ISO 14130</rdfs:label>
     </owl:Class>
     
 
@@ -2150,10 +2203,11 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_178">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cantilever_Beam_Specimen"/>
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flxural_Testing"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Testing"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_Standards"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Three-Point_Bending_Specimen"/>
         <rdfs:comment>Plastics - Determination of Flexural Properties</rdfs:comment>
+        <rdfs:label>ISO 178</rdfs:label>
     </owl:Class>
     
 
@@ -2162,6 +2216,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_179">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Impact_Testing"/>
+        <rdfs:comment>Represents a specific ISO standard titled &quot;Plastics - Determination of Charpy Impact Strength&quot;.</rdfs:comment>
+        <rdfs:label>ISO 179</rdfs:label>
     </owl:Class>
     
 
@@ -2172,7 +2228,8 @@
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dogbone_Specimen"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_Standards"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Testing"/>
-        <rdfs:comment>Plastics - Determination of Tensile Properties</rdfs:comment>
+        <rdfs:comment>Represents a specific ISO standard that outlines the test methods for determining the tensile properties of plastic materials, including thermoplastic and thermosetting materials.</rdfs:comment>
+        <rdfs:label>ISO 527</rdfs:label>
     </owl:Class>
     
 
@@ -2189,7 +2246,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>International Organization for Standardization</rdfs:comment>
+        <rdfs:label>International Organization for Standardization (ISO)</rdfs:label>
     </owl:Class>
     
 
@@ -2228,6 +2285,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Impact_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to assess the ability of materials to resist sudden and dynamic loading.</rdfs:comment>
+        <rdfs:label>Impact Testing</rdfs:label>
     </owl:Class>
     
 
@@ -2347,6 +2406,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_K_6911">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_Standards"/>
         <rdfs:comment>Methods of test for determining the plane shear strength of fibre-reinforced plastics</rdfs:comment>
+        <rdfs:label>JIS K 6911</rdfs:label>
     </owl:Class>
     
 
@@ -2356,6 +2416,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_K_7076">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of flexural properties</rdfs:comment>
+        <rdfs:label>JIS K 7076</rdfs:label>
     </owl:Class>
     
 
@@ -2365,6 +2426,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_K_7163">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_Standards"/>
         <rdfs:comment>Fibre-reinforced plastic composites - Determination of compressive properties</rdfs:comment>
+        <rdfs:label>JIS K 7163</rdfs:label>
     </owl:Class>
     
 
@@ -2373,7 +2435,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#JIS_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>Japanese Industrial Standards</rdfs:comment>
+        <rdfs:label>Japanese Industrial Standards (JIS)</rdfs:label>
     </owl:Class>
     
 
@@ -2507,6 +2569,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL-STD-461">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL_Standards"/>
         <rdfs:comment>Requirements for the Control of Electromagnetic Interference Characteristics of Subsystems and Equipment</rdfs:comment>
+        <rdfs:label>MIL STD 461</rdfs:label>
     </owl:Class>
     
 
@@ -2516,6 +2579,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL-STD-810">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL_Standards"/>
         <rdfs:comment>Environmental Engineering Considerations and Laboratory Tests</rdfs:comment>
+        <rdfs:label>MIL STD 810</rdfs:label>
     </owl:Class>
     
 
@@ -2525,6 +2589,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL-STD-883">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL_Standards"/>
         <rdfs:comment>Test Methods and Procedures for Microelectronics</rdfs:comment>
+        <rdfs:label>MIL STD 883</rdfs:label>
     </owl:Class>
     
 
@@ -2533,7 +2598,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#MIL_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>Military Standards</rdfs:comment>
+        <rdfs:label>Military Standards (MIL)</rdfs:label>
     </owl:Class>
     
 
@@ -2737,6 +2802,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_SP_800-22">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_Standards"/>
         <rdfs:comment>A Statistical Test Suite for Random and Pseudorandom Number Generators</rdfs:comment>
+        <rdfs:label>NIST SP 800-22</rdfs:label>
     </owl:Class>
     
 
@@ -2746,6 +2812,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_SP_800-53">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_Standards"/>
         <rdfs:comment>Security and Privacy Controls for Federal Information Systems and Organizations</rdfs:comment>
+        <rdfs:label>NIST SP 8000-53</rdfs:label>
     </owl:Class>
     
 
@@ -2755,6 +2822,7 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_SP_800-61">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_Standards"/>
         <rdfs:comment>Computer Security Incident Handling Guide</rdfs:comment>
+        <rdfs:label>NIST SP 800-61</rdfs:label>
     </owl:Class>
     
 
@@ -2763,7 +2831,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#NIST_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards"/>
-        <rdfs:comment>National Institute of Standards and Technology</rdfs:comment>
+        <rdfs:label>National Institute of Standards and Technology (NIST)</rdfs:label>
     </owl:Class>
     
 
@@ -2922,6 +2990,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Peel_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to evaluate the bond strength or adhesion of materials, by measuring the force required to separate two bonded surfaces.</rdfs:comment>
+        <rdfs:label>Peel Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3303,6 +3373,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Rockwell_Hardness_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness_Testing"/>
+        <rdfs:comment>Represents a type of hardness testing method used to determine the hardness of materials, by measuring the depth of penetration of an indenter into the material under two loads - minor and major loads.</rdfs:comment>
+        <rdfs:label>Rockwell Hardness Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3433,6 +3505,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear-Lap_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to determine the shear strength of adhesively bonded materials,  with a lap joint configuration.</rdfs:comment>
+        <rdfs:label>Shear-Lap Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3497,6 +3571,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to determine the shear strength and deformation behavior of materials, including composites, under applied forces parallel to the plane of the material.</rdfs:comment>
+        <rdfs:label>Shear Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3842,6 +3918,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of mechanical testing used to determine the tensile properties of materials, by subjecting a specimen to uniaxial tensile forces.</rdfs:comment>
+        <rdfs:label>Tensile Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3899,6 +3977,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Standards">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#In-Testing_Phase"/>
+        <rdfs:comment>Represents a set of standardized guidelines, procedures, and specifications developed by various organizations and regulatory bodies to ensure consistency and reliability in conducting mechanical tests on materials, including composites.</rdfs:comment>
+        <rdfs:label>Test Standards</rdfs:label>
     </owl:Class>
     
 
@@ -3913,6 +3993,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#In-Testing_Phase"/>
+        <rdfs:comment>Represents a specific procedure or technique used to perform mechanical testing on materials, including composites.</rdfs:comment>
+        <rdfs:label>Testing Method</rdfs:label>
     </owl:Class>
     
 
@@ -3957,6 +4039,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Conductivity_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Testing"/>
+        <rdfs:comment>Represents a type of thermal testing used to measure the thermal conductivity of materials.</rdfs:comment>
+        <rdfs:label>Thermal Conductivity Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3981,6 +4065,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Expansion_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Testing"/>
+        <rdfs:comment>Represents a type of thermal testing used to determine the coefficient of thermal expansion (CTE) of materials.</rdfs:comment>
+        <rdfs:label>Thermal Expansion Testing</rdfs:label>
     </owl:Class>
     
 
@@ -3997,6 +4083,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Method"/>
+        <rdfs:comment>Represents a type of testing used to assess the thermal properties and behavior of materials, under different temperature conditions.</rdfs:comment>
+        <rdfs:label>Thermal Testing</rdfs:label>
     </owl:Class>
     
 
@@ -4422,6 +4510,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vickers_Hardness_Testing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness_Testing"/>
+        <rdfs:comment>Represents a type of hardness testing method used to determine the hardness of materials, by measuring the size of an indentation formed by a diamond pyramid indenter.</rdfs:comment>
+        <rdfs:label>Vickers Hardness Testing</rdfs:label>
     </owl:Class>
     
 
