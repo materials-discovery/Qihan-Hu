@@ -250,6 +250,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D2290">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Circular_Disk_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for Apparent Hoop Tensile Strength of Plastic or Reinforced Plastic Pipe.&quot;</rdfs:comment>
+        <rdfs:label>ASTM D2290</rdfs:label>
     </owl:Class>
     
 
@@ -258,6 +260,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D2344">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Short_Beam_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for Short-Beam Strength of Polymer Matrix Composite Materials and Their Laminates&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D2344</rdfs:label>
     </owl:Class>
     
 
@@ -327,6 +331,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D3518">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flat_Plate_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for In-Plane Shear Response of Polymer Matrix Composite Materials by Tensile Test of a ±45° Laminate&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D3518</rdfs:label>
     </owl:Class>
     
 
@@ -358,6 +364,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D5448">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hourglass_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for Inplane Shear Properties of Hoop Wound Polymer Matrix Composite Cylinders&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D5448</rdfs:label>
     </owl:Class>
     
 
@@ -366,6 +374,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D5528">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Double_Cantilever_Beam_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for Mode I Interlaminar Fracture Toughness of Unidirectional Fiber-Reinforced Polymer Matrix Composites&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D5528</rdfs:label>
     </owl:Class>
     
 
@@ -384,6 +394,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D6272">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Four-Point_Bending_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for Flexural Properties of Unreinforced and Reinforced Plastics and Electrical Insulating Materials&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D6272</rdfs:label>
     </owl:Class>
     
 
@@ -392,6 +404,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ASTM_D638">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dogbone_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Standard Test Method for Tensile Properties of Plastics&quot;.</rdfs:comment>
+        <rdfs:label>ASTM D638</rdfs:label>
     </owl:Class>
     
 
@@ -442,6 +456,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Abrasive_Saw">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sectioning_Equipment"/>
+        <rdfs:comment>Represents a type of cutting tool equipped with an abrasive disc or wheel used for sectioning hard and dense materials.</rdfs:comment>
+        <rdfs:label>Abrasive Saw</rdfs:label>
     </owl:Class>
     
 
@@ -476,6 +492,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Additive_Manufacturing_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a group of manufacturing techniques that build objects layer by layer by adding material.</rdfs:comment>
+        <rdfs:label>Additive Manufacturing Processes</rdfs:label>
     </owl:Class>
     
 
@@ -602,6 +620,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Autoclave_Curing_Process">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a manufacturing process used to cure composite materials, especially pre-impregnated materials (prepregs), under controlled high-temperature and pressure conditions.</rdfs:comment>
+        <rdfs:label>Autoclave Curing Process</rdfs:label>
     </owl:Class>
     
 
@@ -610,6 +630,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Automated_Fiber_Placement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Layup_Processes"/>
+        <rdfs:comment>Represents a specific layup process that uses automated machinery to precisely place and align continuous fibers onto a mandrel or mold to create a composite structure.</rdfs:comment>
+        <rdfs:label>Automated Fiber Placement</rdfs:label>
     </owl:Class>
     
 
@@ -618,6 +640,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Automated_Tape_Layup">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Layup_Processes"/>
+        <rdfs:comment>Represents a specific layup process where continuous fiber tapes are automatically placed onto a mold or tool to form a composite structure.</rdfs:comment>
+        <rdfs:label>Automated Tape Layup</rdfs:label>
     </owl:Class>
     
 
@@ -626,6 +650,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Axes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools"/>
+        <rdfs:comment>Represents a type of cutting tool.</rdfs:comment>
+        <rdfs:label>Axes</rdfs:label>
     </owl:Class>
     
 
@@ -654,6 +680,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Axial_Filament_Winding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Filament_Winding_Processes"/>
+        <rdfs:comment>Represents a specific filament winding process where continuous fibers are wound along the length (axial direction) of a mandrel or mold.</rdfs:comment>
+        <rdfs:label>Axial Filament Winding</rdfs:label>
     </owl:Class>
     
 
@@ -672,6 +700,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BMC_Compression_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bulk_Molding_Compound_Processes"/>
+        <rdfs:comment>Represents a specific manufacturing process that uses the bulk molding compound (BMC) method to produce composite materials.</rdfs:comment>
+        <rdfs:label>BMC Compression Molding</rdfs:label>
     </owl:Class>
     
 
@@ -680,6 +710,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#BMC_Fabrication">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bulk_Molding_Compound_Processes"/>
+        <rdfs:comment>Represents a category of manufacturing processes that utilize the bulk molding compound (BMC) method to fabricate composite materials.</rdfs:comment>
+        <rdfs:label>BMC Fabrication</rdfs:label>
     </owl:Class>
     
 
@@ -743,6 +775,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Belt_Grinder">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Grinding_and_Sanding_Equipment"/>
+        <rdfs:comment>Represents a type of grinding machine equipped with an abrasive belt that rotates on two or more pulleys.</rdfs:comment>
+        <rdfs:label>Belt Grinder</rdfs:label>
     </owl:Class>
     
 
@@ -835,6 +869,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bulk_Molding_Compound_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a group of manufacturing processes used to produce composite materials through the bulk molding compound (BMC) method. BMC is a mixture of resin, reinforcement fibers, and additives that is heated and molded into the desired shape using compression molding or injection molding techniques.</rdfs:comment>
+        <rdfs:label>Bulk Molding Compound Processes (BMC)</rdfs:label>
     </owl:Class>
     
 
@@ -843,6 +879,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cantilever_Beam_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with one fixed end and one free end, resembling a cantilever beam.</rdfs:comment>
+        <rdfs:label>Cantilever Beam Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -871,10 +909,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents a general category of equipment used in the casting process to produce composite components.</rdfs:comment>
+        <rdfs:label>Cast Machine</rdfs:label>
     </owl:Class>
     
 
@@ -890,7 +930,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Centrifugal_casting_machine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Centrifugal_casting_machine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine"/>
+        <rdfs:comment>Represents a type of casting machine that utilizes centrifugal force to distribute molten material evenly in a mold.</rdfs:comment>
+        <rdfs:label>Centrifugal Casting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -965,6 +1007,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Circular_Disk_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a circular shape, often used for tests involving compression, tension, or shear loading.</rdfs:comment>
+        <rdfs:label>Circular Disk Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -993,6 +1037,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Closed_Molding_Compression_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Molding_Processes"/>
+        <rdfs:comment>Represents a specific type of compression molding process where the composite material is placed into a mold cavity that is fully enclosed.</rdfs:comment>
+        <rdfs:label>Closed Molding Compression Molding</rdfs:label>
     </owl:Class>
     
 
@@ -1045,6 +1091,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a molding process where a material, often in a heated and plasticized state, is placed in a mold cavity and compressed to take the desired shape.</rdfs:comment>
+        <rdfs:label>Compression Molding</rdfs:label>
     </owl:Class>
     
 
@@ -1053,6 +1101,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Molding_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a group of manufacturing processes that utilize compression molding techniques to shape and cure composite materials.</rdfs:comment>
+        <rdfs:label>Compression Molding Processes</rdfs:label>
     </owl:Class>
     
 
@@ -1117,7 +1167,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Computer_Numerical_Control_Cutting_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cutting_Equipment"/>
-        <rdfs:comment>CNC</rdfs:comment>
+        <rdfs:comment>Represents a type of cutting machine equipped with computer numerical control (CNC) technology.</rdfs:comment>
+        <rdfs:label>Computer Numeriical Control (CNC) Cutting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -1126,7 +1177,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Computer_Numerical_Control_Milling_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Machining_Equipment"/>
-        <rdfs:comment>CNC</rdfs:comment>
+        <rdfs:comment>Represents a type of milling machine equipped with computer numerical control (CNC) technology.</rdfs:comment>
+        <rdfs:label>Computer Numerical Control (CNC) Milling Machine</rdfs:label>
     </owl:Class>
     
 
@@ -1135,7 +1187,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Computer_Numerical_Control_Turning_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Machining_Equipment"/>
-        <rdfs:comment>CNC</rdfs:comment>
+        <rdfs:comment>Represents a type of turning machine equipped with computer numerical control (CNC) technology.</rdfs:comment>
+        <rdfs:label>Computer Numerical Control (CNC) Turning Machine</rdfs:label>
     </owl:Class>
     
 
@@ -1182,7 +1235,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Fabrication">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Additive_Manufacturing_Processes"/>
-        <rdfs:comment>CFF</rdfs:comment>
+        <rdfs:comment>Represents a specific technique used in composite material manufacturing to integrate continuous fibers into a matrix material to enhance mechanical properties.</rdfs:comment>
+        <rdfs:label>Continuous Fibre Fabrication (CFF)</rdfs:label>
     </owl:Class>
     
 
@@ -1190,7 +1244,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_casting_machine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_casting_machine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine"/>
+        <rdfs:comment>Represents a type of casting machine used for continuously producing long and uniform metal or alloy products.</rdfs:comment>
+        <rdfs:label>Continuous Casting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -1279,6 +1335,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cutting_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents equipment specifically designed for cutting composite materials into the desired shapes and sizes for test specimens.</rdfs:comment>
+        <rdfs:label>Cutting Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -1369,7 +1427,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Die_casting_machine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Die_casting_machine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine"/>
+        <rdfs:comment>Represents a type of casting machine used in the die casting process to produce metal components with complex shapes and high precision.</rdfs:comment>
+        <rdfs:label>Die Casting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -1406,6 +1466,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Disc_Sander">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Grinding_and_Sanding_Equipment"/>
+        <rdfs:comment>Represents a type of sanding machine with a circular sanding disc mounted on a rotating spindle.</rdfs:comment>
+        <rdfs:label>Disc Sander</rdfs:label>
     </owl:Class>
     
 
@@ -1432,6 +1494,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dogbone_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a distinctive shape resembling a dogbone, with a reduced cross-sectional area at the center and broader ends.</rdfs:comment>
+        <rdfs:label>Dogbone Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -1440,6 +1504,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Double_Cantilever_Beam_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with two cantilever beams placed back to back, creating a crack or defect between the beams.</rdfs:comment>
+        <rdfs:label>Double Cantilever Beam Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -1448,6 +1514,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Drape_Forming">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Forming_Processes"/>
+        <rdfs:comment>Represents a specific sheet forming process where a pre-cut composite sheet is draped or placed over a mold or tool with the desired shape.</rdfs:comment>
+        <rdfs:label>Drape Forming</rdfs:label>
     </owl:Class>
     
 
@@ -1456,6 +1524,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Drilling_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Machining_Equipment"/>
+        <rdfs:comment>Represents a type of machining equipment used for drilling holes in workpieces.</rdfs:comment>
+        <rdfs:label>Drilling Machine</rdfs:label>
     </owl:Class>
     
 
@@ -1599,6 +1669,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#End-Notched_Flexure_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a notch or groove at one end, designed to induce controlled crack propagation during a flexural test.</rdfs:comment>
+        <rdfs:label>End-Notched Flexure Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -1711,6 +1783,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fiber_Placement">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Layup_Processes"/>
+        <rdfs:comment>Represents a layup process in which continuous fibers are manually placed onto a mold or tool to create a composite structure.</rdfs:comment>
+        <rdfs:label>Fiber Placement</rdfs:label>
     </owl:Class>
     
 
@@ -1727,6 +1801,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Filament_Winding_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a category of manufacturing processes used to produce composite structures by winding continuous fibers (filaments) around a mandrel or mold in a specific pattern.</rdfs:comment>
+        <rdfs:label>Filament Winding Processes</rdfs:label>
     </owl:Class>
     
 
@@ -1735,6 +1811,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flat_Plate_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a flat and uniform thickness, often used for simple and basic mechanical tests, such as tension and compression tests.</rdfs:comment>
+        <rdfs:label>Flat Plate Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -1825,6 +1903,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Four-Point_Bending_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with two loading points and two support points, creating a four-point bending configuration.</rdfs:comment>
+        <rdfs:label>Four Point Bending Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -1879,7 +1959,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fused_Deposition_Modeling">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Additive_Manufacturing_Processes"/>
-        <rdfs:comment>FDM</rdfs:comment>
+        <rdfs:comment>Represents an additive manufacturing process that uses a thermoplastic filament as the feedstock to build 3D objects layer by layer.</rdfs:comment>
+        <rdfs:label>Fused Deposition Modelling (FDM)</rdfs:label>
     </owl:Class>
     
 
@@ -1953,6 +2034,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Grinding_Wheel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Grinding_and_Sanding_Equipment"/>
+        <rdfs:comment>Represents an abrasive wheel used in grinding machines for material removal and surface finishing.</rdfs:comment>
+        <rdfs:label>Grinding Wheel</rdfs:label>
     </owl:Class>
     
 
@@ -1961,6 +2044,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Grinding_and_Sanding_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents a category of machines and tools used for material removal and surface finishing through grinding and sanding processes.</rdfs:comment>
+        <rdfs:label>Grinding and Sanding Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -1979,6 +2064,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hacksaws">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools"/>
+        <rdfs:comment>Represents a type of cutting tool.</rdfs:comment>
+        <rdfs:label>Hacksaws</rdfs:label>
     </owl:Class>
     
 
@@ -1997,6 +2084,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hand_Layup">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Layup_Processes"/>
+        <rdfs:comment>Represents a manual layup process where layers of reinforcing fibers and resin are manually positioned onto a mold or tool to form a composite laminate.</rdfs:comment>
+        <rdfs:label>Hand Layup</rdfs:label>
     </owl:Class>
     
 
@@ -2005,6 +2094,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hand_Layup_and_Press_Forming">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Forming_Processes"/>
+        <rdfs:comment>Represents a specific sheet forming process where layers of dry fibers or pre-impregnated prepreg sheets are manually laid up in a mold or tool.</rdfs:comment>
+        <rdfs:label>Hand Layup and Press Forming</rdfs:label>
     </owl:Class>
     
 
@@ -2013,6 +2104,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cutting_Equipment"/>
+        <rdfs:comment>Represents a category of cutting tools that are operated manually by hand.</rdfs:comment>
+        <rdfs:label>Handheld Cutting Tools</rdfs:label>
     </owl:Class>
     
 
@@ -2021,6 +2114,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handsaws">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools"/>
+        <rdfs:comment>Represents a type of cutting tool.</rdfs:comment>
+        <rdfs:label>Handsaws</rdfs:label>
     </owl:Class>
     
 
@@ -2092,6 +2187,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hoop_Filament_Winding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Filament_Winding_Processes"/>
+        <rdfs:comment>Represents a specific filament winding process where continuous fibers are wound around a mandrel or mold in a circumferential direction (hoop direction).</rdfs:comment>
+        <rdfs:label>Hoop Filament Winding</rdfs:label>
     </owl:Class>
     
 
@@ -2100,6 +2197,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hourglass_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a waist-like or hourglass shape, often used in compression tests to induce localized deformation and controlled failure.</rdfs:comment>
+        <rdfs:label>Hourglass Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -2137,6 +2236,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_11542">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Double_Cantilever_Beam_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Carbon fibre-reinforced plastics — Determination of interlaminar shear stress, ±45° shear method&quot;.</rdfs:comment>
+        <rdfs:label>ISO 11542</rdfs:label>
     </owl:Class>
     
 
@@ -2155,6 +2256,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_13586">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#End-Notched_Flexure_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Carbon fibre-reinforced plastics — Determination of compressive properties perpendicular to the plane of the laminate&quot;.</rdfs:comment>
+        <rdfs:label>ISO 13586</rdfs:label>
     </owl:Class>
     
 
@@ -2164,6 +2267,8 @@
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_14125">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Four-Point_Bending_Specimen"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Short_Beam_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Fibre-reinforced plastic composites - Determination of flexural properties&quot;.</rdfs:comment>
+        <rdfs:label>ISO 14125</rdfs:label>
     </owl:Class>
     
 
@@ -2240,6 +2345,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#ISO_7751">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Circular_Disk_Specimen"/>
+        <rdfs:comment>Represents a standard titled &quot;Plastics - Compression-moulding test specimens of thermoplastic materials&quot;.</rdfs:comment>
+        <rdfs:label>ISO 7751</rdfs:label>
     </owl:Class>
     
 
@@ -2313,6 +2420,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Incorporation_of_Nanomaterials_into_Composites">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite_Synthesis"/>
+        <rdfs:comment>Represents the process of integrating nanomaterials, such as nanoparticles, nanofibers, or nanotubes, into the matrix of composite materials to form nanocomposites.</rdfs:comment>
+        <rdfs:label>Incorporation of Nanomaterials into Composites</rdfs:label>
     </owl:Class>
     
 
@@ -2330,7 +2439,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ingot_casting_machine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ingot_casting_machine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine"/>
+        <rdfs:comment>Represents a type of casting machine used to produce ingots, which are large metal blocks or bars used as raw materials for further processing.</rdfs:comment>
+        <rdfs:label>Ingot Casting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -2339,6 +2450,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Injection_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a molding process in which a material, usually plastic, is injected into a mold cavity under high pressure.</rdfs:comment>
+        <rdfs:label>Injection Molding</rdfs:label>
     </owl:Class>
     
 
@@ -2448,6 +2561,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Jolt_Machines">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a type of molding machine used in foundries to compact sand molds.</rdfs:comment>
+        <rdfs:label>Jolt Machines</rdfs:label>
     </owl:Class>
     
 
@@ -2464,6 +2579,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Laser_Cutting_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cutting_Equipment"/>
+        <rdfs:comment>Represents a type of cutting machine that uses a focused laser beam to cut through various materials.</rdfs:comment>
+        <rdfs:label>Laser Cutting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -2502,6 +2619,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Lathe">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Machining_Equipment"/>
+        <rdfs:comment>Represents a type of machining equipment used for turning operations to create cylindrical shapes on workpieces.</rdfs:comment>
+        <rdfs:label>Lathe</rdfs:label>
     </owl:Class>
     
 
@@ -2510,6 +2629,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Layup_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a category of manufacturing processes used to build composite structures by laying up layers of reinforcing fibers and resin to form a laminate.</rdfs:comment>
+        <rdfs:label>Layup Processes</rdfs:label>
     </owl:Class>
     
 
@@ -2611,6 +2732,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Machining_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents equipment used for machining composite materials to prepare test specimens with specific geometries and dimensions</rdfs:comment>
+        <rdfs:label>Machining Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -2653,6 +2776,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pre-Testing_Phase"/>
+        <rdfs:comment>Represents the process of producing or fabricating composite materials and other types of materials.</rdfs:comment>
+        <rdfs:label>Material Manufacturing</rdfs:label>
     </owl:Class>
     
 
@@ -2789,6 +2914,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents a general category of machines used in the manufacturing process to shape materials into specific forms and sizes.</rdfs:comment>
+        <rdfs:label>Molding Machine</rdfs:label>
     </owl:Class>
     
 
@@ -2852,6 +2979,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite_Synthesis">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents the process of producing nanocomposite materials, which are composites containing nanoparticles or nanofillers dispersed within the matrix material.</rdfs:comment>
+        <rdfs:label>Nanocomposite Synthesis</rdfs:label>
     </owl:Class>
     
 
@@ -2860,6 +2989,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanofiber_and_Nanoparticle_Coating">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents the process of applying nanofibers or nanoparticles onto the surface of a substrate or base material to create a thin and uniform coating.</rdfs:comment>
+        <rdfs:label>Nanofiber and Nanoparticle Coating</rdfs:label>
     </owl:Class>
     
 
@@ -2912,6 +3043,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Open_Molding_Compression_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compression_Molding_Processes"/>
+        <rdfs:comment>Represents a specific type of compression molding process where the composite material is placed into an open mold cavity.</rdfs:comment>
+        <rdfs:label>Open Molding Compression Molding</rdfs:label>
     </owl:Class>
     
 
@@ -2968,6 +3101,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Out-of-Autoclave_Curing_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a category of composite curing processes that do not involve the use of an autoclave.</rdfs:comment>
+        <rdfs:label>Out of Autoclave Curing Processes</rdfs:label>
     </owl:Class>
     
 
@@ -3014,6 +3149,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Cloth">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Equipment"/>
+        <rdfs:comment>Represents a type of soft and absorbent cloth used for applying polishing compounds and buffing materials to the surface of a material during the polishing process.</rdfs:comment>
+        <rdfs:label>Polishing Cloth</rdfs:label>
     </owl:Class>
     
 
@@ -3022,6 +3159,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents a general category of tools and machines used for the process of polishing, which involves smoothing and refining the surface of a material to achieve a shiny and smooth finish.</rdfs:comment>
+        <rdfs:label>Polishing Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -3030,6 +3169,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Equipment"/>
+        <rdfs:comment>Represents a type of machine designed to automate the polishing process for achieving consistent and efficient results.</rdfs:comment>
+        <rdfs:label>Polishing Machine</rdfs:label>
     </owl:Class>
     
 
@@ -3038,6 +3179,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Wheel">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polishing_Equipment"/>
+        <rdfs:comment>Represents a type of rotating wheel made from various materials, such as cloth, felt, or sisal, coated with polishing compounds or abrasives.</rdfs:comment>
+        <rdfs:label>Polishing Wheel</rdfs:label>
     </owl:Class>
     
 
@@ -3092,6 +3235,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Precision_Saw">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sectioning_Equipment"/>
+        <rdfs:comment>Represents a type of cutting tool designed for accurate and controlled sectioning of materials with minimal deformation or damage.</rdfs:comment>
+        <rdfs:label>Precision Saw</rdfs:label>
     </owl:Class>
     
 
@@ -3100,6 +3245,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Prepreg_Autoclave_Curing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Autoclave_Curing_Process"/>
+        <rdfs:comment>Represents a specific variant of autoclave curing used to process prepreg materials.</rdfs:comment>
+        <rdfs:label>Prepreg Autoclave Curing</rdfs:label>
     </owl:Class>
     
 
@@ -3108,6 +3255,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Prepreg_Curing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Prepreg_Manufacturing"/>
+        <rdfs:comment>Represents the process of fully curing prepreg materials to achieve the final properties of composite structures.</rdfs:comment>
+        <rdfs:label>Prepreg Curing</rdfs:label>
     </owl:Class>
     
 
@@ -3116,6 +3265,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Prepreg_Fabrication">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Prepreg_Manufacturing"/>
+        <rdfs:comment>Represents the process of using prepreg materials to fabricate composite components.</rdfs:comment>
+        <rdfs:label>Prepreg Fabrication</rdfs:label>
     </owl:Class>
     
 
@@ -3124,6 +3275,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Prepreg_Manufacturing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents the process of producing prepreg materials, which are composite reinforcements pre-impregnated with resin.</rdfs:comment>
+        <rdfs:label>Prepreg Manufacturing</rdfs:label>
     </owl:Class>
     
 
@@ -3143,6 +3296,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pultruded_Profile_Manufacturing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pultrusion_Process"/>
+        <rdfs:comment>Represents the production of composite profiles using the pultrusion process.</rdfs:comment>
+        <rdfs:label>Pultruded Profile Manufacturing</rdfs:label>
     </owl:Class>
     
 
@@ -3151,6 +3306,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pultrusion_Process">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a continuous manufacturing process used to produce long and uniform composite profiles with constant cross-sections.</rdfs:comment>
+        <rdfs:label>Pultrusion Process</rdfs:label>
     </owl:Class>
     
 
@@ -3197,6 +3354,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Radial_Filament_Winding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Filament_Winding_Processes"/>
+        <rdfs:comment>Represents a specific filament winding process where continuous fibers are wound around a mandrel or mold in a radial direction from a central point.</rdfs:comment>
+        <rdfs:label>Radial Filament Winding</rdfs:label>
     </owl:Class>
     
 
@@ -3215,6 +3374,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Random_Orbital_Sander">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Grinding_and_Sanding_Equipment"/>
+        <rdfs:comment>Represents a type of handheld sanding tool that combines rotary and orbital movements to create a random sanding pattern.</rdfs:comment>
+        <rdfs:label>Random Orbital Sander</rdfs:label>
     </owl:Class>
     
 
@@ -3295,14 +3456,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Film_Infusion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Infusion_Processes"/>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Film_Infusion_Under_Flexible_Tooling -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Film_Infusion_Under_Flexible_Tooling">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Infusion_Processes"/>
+        <rdfs:comment>Represents a specific resin infusion process where a dry fiber reinforcement is first laid up in a mold or tool, and then a thin, pre-made resin film is placed on top of the dry fibers.</rdfs:comment>
+        <rdfs:label>Resin Film Infusion</rdfs:label>
     </owl:Class>
     
 
@@ -3311,6 +3466,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Infusion_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a group of manufacturing processes used to introduce resin into a dry fiber reinforcement to create composite parts.</rdfs:comment>
+        <rdfs:label>Resin Infusion Process</rdfs:label>
     </owl:Class>
     
 
@@ -3319,6 +3476,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Transfer_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Infusion_Processes"/>
+        <rdfs:comment>Represents a specific resin infusion process in which dry fiber preforms or reinforcements are placed in a closed mold.</rdfs:comment>
+        <rdfs:label>Resin Transfer Molding (RTM)</rdfs:label>
     </owl:Class>
     
 
@@ -3429,6 +3588,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#SMC_Compression_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Molding_Compound__Processes"/>
+        <rdfs:comment>Represents a specific sheet molding compound process where SMC sheets are placed in a compression mold.</rdfs:comment>
+        <rdfs:label>SMC Compression Molding</rdfs:label>
     </owl:Class>
     
 
@@ -3437,6 +3598,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#SMC_Fabrication">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Molding_Compound__Processes"/>
+        <rdfs:comment>Represents a specific sheet molding compound process that involves the fabrication of SMC sheets.</rdfs:comment>
+        <rdfs:label>SMC Fabrication</rdfs:label>
     </owl:Class>
     
 
@@ -3445,6 +3608,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sand_Slingers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a type of molding machine used in foundries to create sand molds by flinging sand onto a pattern.</rdfs:comment>
+        <rdfs:label>Sand Slingers</rdfs:label>
     </owl:Class>
     
 
@@ -3471,6 +3636,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Scissors">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools"/>
+        <rdfs:comment>Represents a type of cutting tool.</rdfs:comment>
+        <rdfs:label>Scissors</rdfs:label>
     </owl:Class>
     
 
@@ -3479,6 +3646,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sectioning_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents a general category of equipment used for the process of sectioning or cutting materials into smaller, representative samples or slices for further analysis and examination.</rdfs:comment>
+        <rdfs:label>Sectioning Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -3606,6 +3775,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Forming_Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a group of manufacturing processes used to shape and form composite sheets or panels into desired geometries.</rdfs:comment>
+        <rdfs:label>Sheet Forming Processes</rdfs:label>
     </owl:Class>
     
 
@@ -3614,6 +3785,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Molding_Compound__Processes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
+        <rdfs:comment>Represents a group of manufacturing processes that use sheet molding compounds (SMCs) to produce composite parts.</rdfs:comment>
+        <rdfs:label>Sheet Molding Compound (SMC) Processes</rdfs:label>
     </owl:Class>
     
 
@@ -3622,6 +3795,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Short_Beam_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a relatively short length compared to its width and thickness, often used in flexural and shear tests.</rdfs:comment>
+        <rdfs:label>Short Beam Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -3656,6 +3831,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Snips">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools"/>
+        <rdfs:comment>Represents a type of cutting tool.</rdfs:comment>
+        <rdfs:label>Snips</rdfs:label>
     </owl:Class>
     
 
@@ -3664,6 +3841,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Solvent_Cleaning_Station">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Cleaning_Equipment"/>
+        <rdfs:comment>Represents a specialized cleaning station equipped with solvents and cleaning agents to remove organic and non-organic contaminants from specimens and samples.</rdfs:comment>
+        <rdfs:label>Solvent Cleaning Station</rdfs:label>
     </owl:Class>
     
 
@@ -3680,6 +3859,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Cleaning_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:comment>Represents a category of equipment used for cleaning specimens and samples to remove contaminants, debris, or surface impurities before conducting further tests or analyses.</rdfs:comment>
+        <rdfs:label>Specimen Cleaning Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -3688,6 +3869,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Preparation"/>
+        <rdfs:comment>Represents a group of equipment used in the preparation of test specimens for mechanical testing of composites.</rdfs:comment>
+        <rdfs:label>Specimen Preparation Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -3706,6 +3889,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Squeezers">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a type of molding machine used in foundries for molding operations.</rdfs:comment>
+        <rdfs:label>Squeezers</rdfs:label>
     </owl:Class>
     
 
@@ -3732,7 +3917,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stereolithography">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Additive_Manufacturing_Processes"/>
-        <rdfs:comment xml:lang="en">SLA</rdfs:comment>
+        <rdfs:comment>Represents an additive manufacturing process that uses a liquid photopolymer resin cured by a light source.</rdfs:comment>
+        <rdfs:label xml:lang="en">Stereolithography (SLA)</rdfs:label>
     </owl:Class>
     
 
@@ -3815,6 +4001,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Surface_Modification_with_Nanomaterials">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanofiber_and_Nanoparticle_Coating"/>
+        <rdfs:comment>Represents the process of altering the surface properties of a material by incorporating nanomaterials, such as nanoparticles or nanofibers, onto its surface.</rdfs:comment>
+        <rdfs:label>Surface Modification with Nanomaterials</rdfs:label>
     </owl:Class>
     
 
@@ -3975,8 +4163,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Manufacturing"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Material_Preparation"/>
+        <rdfs:comment>Represents a category of different geometric shapes and configurations used for creating test specimens or samples for various mechanical tests.</rdfs:comment>
+        <rdfs:label>Test Specimen Geometry</rdfs:label>
     </owl:Class>
     
 
@@ -4104,6 +4293,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermoforming">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sheet_Forming_Processes"/>
+        <rdfs:comment>Represents a specific sheet forming process where a thermoplastic composite sheet is heated until it becomes pliable and can be stretched and formed over a mold.</rdfs:comment>
+        <rdfs:label>Thermoforming</rdfs:label>
     </owl:Class>
     
 
@@ -4112,6 +4303,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermoforming_Molding">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a molding process where a thermoplastic sheet is heated and formed into a specific shape using a mold or tool.</rdfs:comment>
+        <rdfs:label>Thermoforming Molding</rdfs:label>
     </owl:Class>
     
 
@@ -4150,6 +4343,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Three-Point_Bending_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with one loading point and two support points, creating a three-point bending configuration.</rdfs:comment>
+        <rdfs:label>Three-Point Bending Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -4270,6 +4465,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Equipment">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Preparation_Equipment"/>
+        <rdfs:label>Trimming Equipment</rdfs:label>
     </owl:Class>
     
 
@@ -4278,6 +4474,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Press">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Equipment"/>
+        <rdfs:comment>Represents a type of machine equipped with a cutting die or tool used to trim excess material from workpieces.</rdfs:comment>
+        <rdfs:label>Trimming Press</rdfs:label>
     </owl:Class>
     
 
@@ -4286,6 +4484,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Router">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Equipment"/>
+        <rdfs:comment>Represents a handheld power tool equipped with a rotating cutting bit used for trimming and shaping workpieces with precision.</rdfs:comment>
+        <rdfs:label>Trimming Router</rdfs:label>
     </owl:Class>
     
 
@@ -4294,6 +4494,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Tool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Trimming_Equipment"/>
+        <rdfs:comment>Represents a handheld cutting tool designed for manual trimming and shaping of workpieces.</rdfs:comment>
+        <rdfs:label>Trimming Tool</rdfs:label>
     </owl:Class>
     
 
@@ -4310,6 +4512,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ultrasonic_Cleaner">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Specimen_Cleaning_Equipment"/>
+        <rdfs:comment>Represents a type of cleaning equipment that uses ultrasonic waves to create high-frequency vibrations in a cleaning liquid, producing cavitation bubbles that agitate and dislodge dirt and contaminants from specimens and surfaces.</rdfs:comment>
+        <rdfs:label>Ultrasonic Cleaner</rdfs:label>
     </owl:Class>
     
 
@@ -4376,6 +4580,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Utility_Knives">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Handheld_Cutting_Tools"/>
+        <rdfs:comment>Represents a type of cutting tool.</rdfs:comment>
+        <rdfs:label>Untility Knives</rdfs:label>
     </owl:Class>
     
 
@@ -4384,6 +4590,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#V-Notched_Beam_Specimen">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test_Specimen_Geometry"/>
+        <rdfs:comment>Represents a type of test specimen with a V-shaped notch or groove, often used in fracture mechanics tests to study crack propagation and fracture behavior under bending and tension loads.</rdfs:comment>
+        <rdfs:label>V-Notched Beam Specimen</rdfs:label>
     </owl:Class>
     
 
@@ -4413,6 +4621,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_Assisted_Resin_Infusion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Infusion_Processes"/>
+        <rdfs:comment>Represents a specific resin infusion process where dry fibers or a fiber reinforcement is placed in a mold or tool.</rdfs:comment>
+        <rdfs:label>Vacuum Assisted Resin Infusion</rdfs:label>
     </owl:Class>
     
 
@@ -4421,6 +4631,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_Bag_Only">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Out-of-Autoclave_Curing_Processes"/>
+        <rdfs:comment>Represents a specific out of autoclave curing process where composite materials are laid up and consolidated inside a vacuum bag without additional heating.</rdfs:comment>
+        <rdfs:label>Vacuum Bag Only</rdfs:label>
     </owl:Class>
     
 
@@ -4429,6 +4641,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_Bag_with_Oven">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Out-of-Autoclave_Curing_Processes"/>
+        <rdfs:comment>Represents a specific out of autoclave curing process that combines the use of a vacuum bag and an oven.</rdfs:comment>
+        <rdfs:label>Vacuum Bag with Oven</rdfs:label>
     </owl:Class>
     
 
@@ -4437,6 +4651,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_Bag_with_Resin_Infusion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Out-of-Autoclave_Curing_Processes"/>
+        <rdfs:comment>Represents a specific out of autoclave curing process that involves the application of vacuum pressure and resin infusion to cure composite materials.</rdfs:comment>
+        <rdfs:label>Vacuum Bag with Resin Infusion</rdfs:label>
     </owl:Class>
     
 
@@ -4445,6 +4661,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_Forming">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Molding_Machine"/>
+        <rdfs:comment>Represents a type of thermoforming molding process where a heated thermoplastic sheet is placed over a mold and vacuum pressure is applied to shape the material to the mold contours.</rdfs:comment>
+        <rdfs:label>Vacuum Forming</rdfs:label>
     </owl:Class>
     
 
@@ -4453,6 +4671,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_Infusion_Process">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Resin_Infusion_Processes"/>
+        <rdfs:comment>Represents a specific resin infusion process where dry fibers or a fiber reinforcement is placed in a mold or layup.</rdfs:comment>
+        <rdfs:label>Vacuum Infusion Process</rdfs:label>
     </owl:Class>
     
 
@@ -4460,7 +4680,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_casting_machine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vacuum_casting_machine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine"/>
+        <rdfs:comment>Represents a type of casting machine used to produce high-quality castings with minimal porosity and defects.</rdfs:comment>
+        <rdfs:label>Vacuum Casting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -4476,7 +4698,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vertical_casting_machine -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vertical_casting_machine">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_machine"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Casting_Machine"/>
+        <rdfs:comment>Represents a type of casting machine that performs casting in a vertical orientation.</rdfs:comment>
+        <rdfs:label>Vertical Casting Machine</rdfs:label>
     </owl:Class>
     
 
@@ -4567,6 +4791,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Waterjet_Cutting_Machine">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cutting_Equipment"/>
+        <rdfs:comment>Represents a type of cutting machine that utilizes a high-pressure jet of water mixed with an abrasive material to cut through materials.</rdfs:comment>
+        <rdfs:label>Waterjet Cutting Machine</rdfs:label>
     </owl:Class>
     
 
