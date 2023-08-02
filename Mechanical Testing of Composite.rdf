@@ -1935,6 +1935,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Government_Testing_Agency">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution"/>
+        <rdfs:comment>Represents a specific type of testing institution that is operated and funded by a government entity.</rdfs:comment>
+        <rdfs:label>Government Testing Agency</rdfs:label>
     </owl:Class>
     
 
@@ -2319,6 +2321,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Industry_Testing_Laboratory">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution"/>
+        <rdfs:comment>Represents a specialized laboratory or testing facility operated by a private industry or manufacturing company.</rdfs:comment>
+        <rdfs:label>Industry Testing Laboratory</rdfs:label>
     </owl:Class>
     
 
@@ -3165,6 +3169,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Quality_Control_Center">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution"/>
+        <rdfs:comment>Represents a dedicated center or department within a manufacturing company or organization that is responsible for ensuring the quality and consistency of materials and products.</rdfs:comment>
+        <rdfs:label>Quality Control Center</rdfs:label>
     </owl:Class>
     
 
@@ -3271,6 +3277,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Research_Institute">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution"/>
+        <rdfs:comment>Represents an organization or facility dedicated to research and development activities in various fields, including materials science and engineering.</rdfs:comment>
+        <rdfs:label>Research Institute</rdfs:label>
     </owl:Class>
     
 
@@ -3985,7 +3993,10 @@
 
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution">
+        <rdfs:comment>Represents an organization or facility that is responsible for conducting mechanical testing on composites and other materials.</rdfs:comment>
+        <rdfs:label>Testing Institution</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4355,6 +4366,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#University_Laboratory">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Testing_Institution"/>
+        <rdfs:comment>Represents a laboratory or research facility within a university or educational institution that is engaged in scientific research and experimentation.</rdfs:comment>
+        <rdfs:label>University Laboratory</rdfs:label>
     </owl:Class>
     
 
