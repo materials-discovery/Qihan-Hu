@@ -530,26 +530,32 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminum_Core_Composite -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminium_Core_Composite -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminum_Core_Composite">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminium_Core_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sandwich_Composite"/>
+        <rdfs:comment>Represents a sandwich composite with an aluminium core material between two outer layers.</rdfs:comment>
+        <rdfs:label>Aluminium Core Composite</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminum_Matrix_Composite -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminium_Matrix_Composite -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminum_Matrix_Composite">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminium_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Matrix_Composite"/>
+        <rdfs:comment>Represents a metal matrix composite in which the matrix material is aluminium.</rdfs:comment>
+        <rdfs:label>Aluminium Matrix Composite</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminum_Oxide_Matrix_Composite -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminium_Oxide_Matrix_Composite -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminum_Oxide_Matrix_Composite">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aluminium_Oxide_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic_Matrix_Composite"/>
+        <rdfs:comment>Represents a ceramic matrix composite in which the matrix is composed of aluminum oxide (alumina).</rdfs:comment>
+        <rdfs:label>Aluminium Oxide Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -608,6 +614,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aramid_Fibre_Reinforced_Polymer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Matrix_Composite"/>
+        <rdfs:comment>Represents a polymer matrix composite reinforced with aramid fibers, which are high-strength and heat-resistant synthetic fibers.</rdfs:comment>
+        <rdfs:label>Aramid Fiber Reinforced Polymer</rdfs:label>
     </owl:Class>
     
 
@@ -765,6 +773,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Balsa_Wood_Core_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sandwich_Composite"/>
+        <rdfs:comment>Represents a sandwich composite with a core material made of balsa wood between two outer layers.</rdfs:comment>
+        <rdfs:label>Balsa Wood Core Composite</rdfs:label>
     </owl:Class>
     
 
@@ -773,6 +783,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bamboo_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fiber_Composite"/>
+        <rdfs:comment>Represents a natural fiber composite in which bamboo fibers are used as reinforcement within a matrix material.</rdfs:comment>
+        <rdfs:label>Bamboo Composite</rdfs:label>
     </owl:Class>
     
 
@@ -791,6 +803,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bidirectional_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are oriented in two primary directions, typically at 0° and 90° angles.</rdfs:comment>
+        <rdfs:label>Bidirectional Composite</rdfs:label>
     </owl:Class>
     
 
@@ -799,6 +813,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bio-based_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a type of composite material that is derived from renewable biological sources, such as plants or agricultural waste.</rdfs:comment>
+        <rdfs:label>Bio-Based Composite</rdfs:label>
     </owl:Class>
     
 
@@ -807,6 +823,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Biofiber_Reinforced_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bio-based_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement is composed of natural fibers derived from bio-based sources, such as flax, hemp, or kenaf.</rdfs:comment>
+        <rdfs:label>Biofiber Reinforced Composite</rdfs:label>
     </owl:Class>
     
 
@@ -815,6 +833,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Biopolymer_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bio-based_Composite"/>
+        <rdfs:comment>Represents a composite material in which the matrix is composed of biodegradable and bio-based polymers, such as polylactic acid (PLA), polyhydroxyalkanoates (PHA), or starch-based polymers.</rdfs:comment>
+        <rdfs:label>Biopolymer Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -833,6 +853,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Braided_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are interlaced in a braiding pattern.</rdfs:comment>
+        <rdfs:label>Braided Composite</rdfs:label>
     </owl:Class>
     
 
@@ -901,6 +923,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Carbon_Fibre_Reinforced_Polymer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Matrix_Composite"/>
+        <rdfs:comment>Represents a polymer matrix composite reinforced with carbon fibers, which possess high strength, stiffness, and low density.</rdfs:comment>
+        <rdfs:label>Carbon Fiber Reinforced Polymer (CFRP)</rdfs:label>
     </owl:Class>
     
 
@@ -909,6 +933,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Carbon_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic_Matrix_Composite"/>
+        <rdfs:comment>Represents a ceramic matrix composite in which the matrix is composed of carbon-based materials.</rdfs:comment>
+        <rdfs:label>Carbon Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -917,6 +943,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Carbon_Nanotube_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite"/>
+        <rdfs:comment>Represents a nanocomposite in which carbon nanotubes (CNTs) are embedded within a matrix material.</rdfs:comment>
+        <rdfs:label>Carbon Nanotube Composite</rdfs:label>
     </owl:Class>
     
 
@@ -935,6 +963,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Cellulose-based_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bio-based_Composite"/>
+        <rdfs:comment>Represents a composite material that utilizes cellulose, a natural polysaccharide found in plant cell walls, as a major component of either the reinforcement or the matrix.</rdfs:comment>
+        <rdfs:label>Cellulose-Based Composite</rdfs:label>
     </owl:Class>
     
 
@@ -953,6 +983,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic-Metal_Functionally_Graded_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Functionally_Graded_Composite"/>
+        <rdfs:comment>Represents a functionally graded composite material with a gradual transition from ceramic to metal phases.</rdfs:comment>
+        <rdfs:label>Ceramic-Metal Functionally Graded Composite</rdfs:label>
     </owl:Class>
     
 
@@ -961,6 +993,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic-Polymer_Functionally_Graded_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Functionally_Graded_Composite"/>
+        <rdfs:comment>Represents a functionally graded composite material with a gradual transition from ceramic to polymer phases.</rdfs:comment>
+        <rdfs:label>Ceramic-Polymer Functionally Graded Composite</rdfs:label>
     </owl:Class>
     
 
@@ -977,6 +1011,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic_Nanocomposite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite"/>
+        <rdfs:comment>Represents a nanocomposite in which ceramic nanoparticles or nanofibers are dispersed within a matrix material.</rdfs:comment>
+        <rdfs:label>Ceramic Nanocomposite</rdfs:label>
     </owl:Class>
     
 
@@ -1015,6 +1051,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Chopped_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Discontinuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are in the form of chopped lengths or short fibers.</rdfs:comment>
+        <rdfs:label>Chopped Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1083,6 +1121,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Coir_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fiber_Composite"/>
+        <rdfs:comment>Represents a natural fiber composite in which coir fibers, derived from coconut husks, are embedded within a matrix material.</rdfs:comment>
+        <rdfs:label>Coir Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1249,6 +1289,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a type of composite material in which the reinforcement fibers are continuous throughout the composite structure.</rdfs:comment>
+        <rdfs:label>Continuous Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1277,6 +1319,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Copper_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Matrix_Composite"/>
+        <rdfs:comment>Represents a metal matrix composite in which the matrix material is copper.</rdfs:comment>
+        <rdfs:label>Copper Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1514,6 +1558,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Discontinuous_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a type of composite material in which the reinforcement fibers are not continuous throughout the composite structure.</rdfs:comment>
+        <rdfs:label>Discontinuous Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1849,6 +1895,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fibre_Mat_Reinforced_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Discontinuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are arranged in a non-woven mat or fabric form.v</rdfs:comment>
+        <rdfs:label>Fiber Mat Reinforced Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1877,6 +1925,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flax_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fiber_Composite"/>
+        <rdfs:comment>Represents a natural fiber composite in which flax fibers are used as reinforcement within a matrix material.</rdfs:comment>
+        <rdfs:label>Flax Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -1955,6 +2005,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Foam_Core_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sandwich_Composite"/>
+        <rdfs:comment>Represents a sandwich composite with a foam core material between two outer layers.</rdfs:comment>
+        <rdfs:label>Foam Core Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2013,6 +2065,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Functionally_Graded_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a composite material with a continuous variation in composition and properties along its thickness or through its volume.</rdfs:comment>
+        <rdfs:label>Functionally Graded Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2070,6 +2124,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Glass_Fibre_Reinforced_Polymer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Matrix_Composite"/>
+        <rdfs:comment>Represents a polymer matrix composite reinforced with glass fibers, which offer good mechanical properties and are relatively low-cost.</rdfs:comment>
+        <rdfs:label>Glass Fiber Reinforced Polymer (GFRP)</rdfs:label>
     </owl:Class>
     
 
@@ -2088,6 +2144,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Graphene_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite"/>
+        <rdfs:comment>Represents a nanocomposite in which graphene, a single layer of carbon atoms arranged in a 2D lattice, is incorporated into a matrix material.</rdfs:comment>
+        <rdfs:label>Graphene Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2225,6 +2283,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hemp_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fiber_Composite"/>
+        <rdfs:comment>Represents a natural fiber composite in which hemp fibers are embedded within a matrix material.</rdfs:comment>
+        <rdfs:label>Hemp Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2243,6 +2303,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Honeycomb_Core_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sandwich_Composite"/>
+        <rdfs:comment>Represents a sandwich composite with a core material made of a honeycomb structure between two outer layers.</rdfs:comment>
+        <rdfs:label>Honeycomb Core Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2282,6 +2344,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hybrid_Polymer_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Matrix_Composite"/>
+        <rdfs:comment>Represents a polymer matrix composite that incorporates multiple types of reinforcement materials, such as carbon fibers, glass fibers, or natural fibers, in combination with each other.</rdfs:comment>
+        <rdfs:label>Hybrid Polymer Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2576,6 +2640,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Iron_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Matrix_Composite"/>
+        <rdfs:comment>Represents a metal matrix composite in which the matrix material is iron.</rdfs:comment>
+        <rdfs:label>Iron Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2643,6 +2709,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Knitted_Fabric_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are arranged in a knitted fabric structure.</rdfs:comment>
+        <rdfs:label>Knitted Fabric Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2711,6 +2779,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Lignin-based_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bio-based_Composite"/>
+        <rdfs:comment>Represents a composite material in which lignin, a natural polymer found in the cell walls of plants, is used as a major component in either the reinforcement or the matrix.</rdfs:comment>
+        <rdfs:label>Lignin-Based Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2739,6 +2809,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Long_Fiber_Reinforced_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Discontinuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are relatively long and continuous.</rdfs:comment>
+        <rdfs:label>Long Fiber Reinforced Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2816,6 +2888,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Magnesium_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Matrix_Composite"/>
+        <rdfs:comment>Represents a metal matrix composite in which the matrix material is magnesium.</rdfs:comment>
+        <rdfs:label>Magnesium Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2894,6 +2968,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal-Ceramic_Functionally_Graded_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Functionally_Graded_Composite"/>
+        <rdfs:comment>Represents a functionally graded composite material with a gradual transition from metal to ceramic phases.</rdfs:comment>
+        <rdfs:label>Metal-Ceramic Functionally Graded Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2902,6 +2978,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal-Polymer_Functionally_Graded_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Functionally_Graded_Composite"/>
+        <rdfs:comment>Represents a functionally graded composite material with a gradual transition from metal to polymer phases.</rdfs:comment>
+        <rdfs:label>Metal-Polymer Functionally Graded Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2910,6 +2988,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a composite material in which a metal matrix surrounds and binds reinforcement materials.</rdfs:comment>
+        <rdfs:label>Metal Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2918,6 +2998,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Nanocomposite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite"/>
+        <rdfs:comment>Represents a nanocomposite in which metal nanoparticles or nanofillers are dispersed within a matrix material.</rdfs:comment>
+        <rdfs:label>Metal Nanocomposite</rdfs:label>
     </owl:Class>
     
 
@@ -2926,6 +3008,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Microcapsule-based_Self-healing_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Self-healing_Composite"/>
+        <rdfs:comment>Represents a self-healing composite that contains microcapsules filled with healing agents, such as resin or adhesive.</rdfs:comment>
+        <rdfs:label>Microcapsule-Based Self-Healing Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2934,6 +3018,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Microchannel-based_Self-healing_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Self-healing_Composite"/>
+        <rdfs:comment>Represents a self-healing composite with embedded microchannels or capillaries that contain healing agents.</rdfs:comment>
+        <rdfs:label>Microchannel-Based Self-Healing Composite</rdfs:label>
     </owl:Class>
     
 
@@ -2952,6 +3038,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Microvascular_Network-based_Self-healing_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Self-healing_Composite"/>
+        <rdfs:comment>Represents a self-healing composite that features a network of microvascular channels filled with healing agents.</rdfs:comment>
+        <rdfs:label>Microvascular Network-Based Self-Healing Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3000,6 +3088,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Mullite_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic_Matrix_Composite"/>
+        <rdfs:comment>Represents a ceramic matrix composite in which the matrix is composed of mullite, a mineral with a unique combination of thermal stability and low thermal expansion.</rdfs:comment>
+        <rdfs:label>Mullite Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3047,6 +3137,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents composite materials in which nanoscale particles, fibers, or tubes are dispersed within a matrix material.</rdfs:comment>
+        <rdfs:label>Nanocomposites</rdfs:label>
     </owl:Class>
     
 
@@ -3075,14 +3167,18 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a composite material in which natural fibers, derived from plant-based sources, are embedded within a matrix material.</rdfs:comment>
+        <rdfs:label>Natural Fiber Composite</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fibre_Reinforces_Polymer -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fibre_Reinforced_Polymer -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fibre_Reinforces_Polymer">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Natural_Fibre_Reinforced_Polymer">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Matrix_Composite"/>
+        <rdfs:comment>Represents a polymer matrix composite reinforced with natural fibers, such as jute, hemp, or flax.</rdfs:comment>
+        <rdfs:label>Natural Fiber Reinforced Polymer</rdfs:label>
     </owl:Class>
     
 
@@ -3091,6 +3187,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nomex_Core_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sandwich_Composite"/>
+        <rdfs:comment>Represents a sandwich composite with a core material made of Nomex, a high-performance aramid fiber material, between two outer layers.</rdfs:comment>
+        <rdfs:label>Nomex Core Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3269,6 +3367,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer-Metal_Functionally_Graded_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Functionally_Graded_Composite"/>
+        <rdfs:comment>Represents a functionally graded composite material with a gradual transition from polymer to metal phases.</rdfs:comment>
+        <rdfs:label>Polymer-Metal Functionally Graded Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3277,6 +3377,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a type of composite material composed of a polymer matrix (resin) and embedded reinforcement materials, such as fibers, particles, or fillers.</rdfs:comment>
+        <rdfs:label>Polymer Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3285,6 +3387,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Polymer_Nanocomposite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Nanocomposite"/>
+        <rdfs:comment>Represents a nanocomposite in which nanoscale fillers, such as nanoparticles or nanoclays, are incorporated into a polymer matrix.</rdfs:comment>
+        <rdfs:label>Polymer Nanocomposite</rdfs:label>
     </owl:Class>
     
 
@@ -3472,6 +3576,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Randomly_Oriented_Fiber_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Discontinuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are randomly oriented within the matrix.</rdfs:comment>
+        <rdfs:label>Randomly Oriented Fiber Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3720,6 +3826,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sandwich_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a type of composite material comprising two outer layers (skins) and a core material sandwiched between them.</rdfs:comment>
+        <rdfs:label>Sandwich Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3758,6 +3866,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Self-healing_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Composite_Material"/>
+        <rdfs:comment>Represents a type of composite material with the capability to repair damage or cracks autonomously, restoring its structural integrity and functionality.</rdfs:comment>
+        <rdfs:label>Self-Healing Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3776,6 +3886,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shape_Memory_Polymer-based_Self-healing_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Self-healing_Composite"/>
+        <rdfs:comment>Represents a self-healing composite incorporating shape memory polymers (SMPs) that can recover their original shape and properties after damage.</rdfs:comment>
+        <rdfs:label>Shape Memory Polymer-Based Self-Healing Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3913,6 +4025,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Short_Fiber_Reinforced_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Discontinuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are relatively short and discontinuous.</rdfs:comment>
+        <rdfs:label>Short Fiber Reinforced Composite</rdfs:label>
     </owl:Class>
     
 
@@ -3921,6 +4035,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Silicon_Carbide_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic_Matrix_Composite"/>
+        <rdfs:comment>Represents a ceramic matrix composite in which the matrix is composed of silicon carbide (SiC).</rdfs:comment>
+        <rdfs:label>Silicon Carbide Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -4039,6 +4155,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strach-based_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bio-based_Composite"/>
+        <rdfs:comment>Represents a composite material in which starch, a carbohydrate derived from plants, serves as a major component in either the reinforcement or the matrix.</rdfs:comment>
+        <rdfs:label>Starch-Based Composite</rdfs:label>
     </owl:Class>
     
 
@@ -4497,6 +4615,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Titanium_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Metal_Matrix_Composite"/>
+        <rdfs:comment>Represents a metal matrix composite in which the matrix material is titanium.</rdfs:comment>
+        <rdfs:label>Titanium Matrix Composite</rdfs:label>
     </owl:Class>
     
 
@@ -4684,6 +4804,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Unidirectional_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are aligned in a single direction.</rdfs:comment>
+        <rdfs:label>Unidirectional Composite</rdfs:label>
     </owl:Class>
     
 
@@ -4823,6 +4945,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vascular_Network-based_Self-healing_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Self-healing_Composite"/>
+        <rdfs:comment>Represents a self-healing composite with an integrated vascular network that carries healing agents.</rdfs:comment>
+        <rdfs:label>Vascular Network-Based Self-Healing Composite</rdfs:label>
     </owl:Class>
     
 
@@ -4971,6 +5095,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Woven_Fabric_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Continuous_Fiber_Composite"/>
+        <rdfs:comment>Represents a composite material in which the reinforcement fibers are woven together in a specific pattern.</rdfs:comment>
+        <rdfs:label>Woven Fabric Composite</rdfs:label>
     </owl:Class>
     
 
@@ -4979,6 +5105,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Zirconia_Matrix_Composite">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ceramic_Matrix_Composite"/>
+        <rdfs:comment>Represents a ceramic matrix composite in which the matrix is composed of zirconia (zirconium dioxide).</rdfs:comment>
+        <rdfs:label>Zirconia Matrix Composite</rdfs:label>
     </owl:Class>
     
 
