@@ -196,7 +196,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Unit">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Statistical_Analysis"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
         <rdfs:comment>Represents the unit of measurement for a test result, such as &quot;MPa&quot; for strength or &quot;J/m²&quot; for fracture toughness.</rdfs:comment>
     </owl:DatatypeProperty>
@@ -207,7 +206,6 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Value">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Statistical_Analysis"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:comment>Represents the specific value or measurement of a test result</rdfs:comment>
@@ -476,6 +474,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acoustic_Absorption_Coefficient">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acoustic_Properties"/>
+        <rdfs:comment>Represents a measure of how well a material absorbs sound energy incident upon its surface.</rdfs:comment>
+        <rdfs:label>Acoustic Absorption Coefficient</rdfs:label>
     </owl:Class>
     
 
@@ -484,6 +484,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acoustic_Properties">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the characteristics of a material related to its interaction with sound waves.</rdfs:comment>
+        <rdfs:label>Acoustic Properties</rdfs:label>
     </owl:Class>
     
 
@@ -502,6 +504,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Adhesive_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the measure of the strength of the bond between an adhesive and a substrate.</rdfs:comment>
+        <rdfs:label>Adhesive Strength</rdfs:label>
     </owl:Class>
     
 
@@ -510,6 +514,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aging_Properties">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the set of characteristics and behaviors of a material that change over time due to exposure to various environmental conditions.</rdfs:comment>
+        <rdfs:label>Aging Properties</rdfs:label>
     </owl:Class>
     
 
@@ -817,6 +823,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Bond_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Adhesive_Strength"/>
+        <rdfs:comment>Represents the measure of the strength of the bond between two joined materials, whether through adhesive bonding or other bonding methods.</rdfs:comment>
+        <rdfs:label>Bond Strength</rdfs:label>
     </owl:Class>
     
 
@@ -833,6 +841,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Brinell_Hardness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness"/>
+        <rdfs:comment>Represents a specific method of hardness testing that measures a material&apos;s hardness based on the size of the permanent impression left by a spherical indenter.</rdfs:comment>
+        <rdfs:label>Brinell Hardness</rdfs:label>
     </owl:Class>
     
 
@@ -861,6 +871,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Brittle_Fracture">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Failure_Mode"/>
+        <rdfs:comment>Represents a type of failure in which a material breaks with little or no plastic deformation.</rdfs:comment>
+        <rdfs:label>Brittle Fracture</rdfs:label>
     </owl:Class>
     
 
@@ -983,6 +995,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Chemical_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the ability of a material to withstand exposure to various chemicals without undergoing significant degradation, chemical reactions, or changes in its properties.</rdfs:comment>
+        <rdfs:label>Chemical Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -991,6 +1005,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Chemical_Stability">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Chemical_Resistance"/>
+        <rdfs:comment>Represents the capacity of a material to maintain its chemical structure and properties over time, especially when exposed to various chemical environments.</rdfs:comment>
+        <rdfs:label>Chemical Stability</rdfs:label>
     </owl:Class>
     
 
@@ -1057,6 +1073,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Coefficient_of_Friction">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Wear_Resistance"/>
+        <rdfs:comment>Represents the ratio of the force of friction between two surfaces in contact to the normal force pressing them together.</rdfs:comment>
+        <rdfs:label>Coefficient of Friction</rdfs:label>
     </owl:Class>
     
 
@@ -1131,6 +1149,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compressive_Residual_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Residual_Stress"/>
+        <rdfs:comment>Represents the type of residual stress that induces compressive forces within a material.</rdfs:comment>
+        <rdfs:label>Compressive Residual Stress</rdfs:label>
     </owl:Class>
     
 
@@ -1149,6 +1169,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Compressive_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strength"/>
+        <rdfs:comment>Represents the ability of a material to resist deformation or failure under a compressive load.</rdfs:comment>
+        <rdfs:label>Compressive Strength</rdfs:label>
     </owl:Class>
     
 
@@ -1263,6 +1285,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Corrosion_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Chemical_Resistance"/>
+        <rdfs:comment>Represents the ability of a material to withstand and resist the detrimental effects of corrosion caused by exposure to aggressive environments, such as moisture, humidity, salts, acids, or other corrosive substances.</rdfs:comment>
+        <rdfs:label>Corrosion Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -1271,6 +1295,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Behaviour">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the time-dependent deformation of a material under constant load or stress at elevated temperatures.</rdfs:comment>
+        <rdfs:label>Creep Behaviour</rdfs:label>
     </owl:Class>
     
 
@@ -1279,6 +1305,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Behaviour"/>
+        <rdfs:comment>Represents the rate at which creep deformation occurs in a material.</rdfs:comment>
+        <rdfs:label>Creep Rate</rdfs:label>
     </owl:Class>
     
 
@@ -1287,6 +1315,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Strain">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Behaviour"/>
+        <rdfs:comment>Represents the amount of time-dependent deformation or strain that occurs in a material under constant load or stress at elevated temperatures.</rdfs:comment>
+        <rdfs:label>Creep Strain</rdfs:label>
     </owl:Class>
     
 
@@ -1404,6 +1434,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Damping_Capacity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the ability of a material to dissipate mechanical energy and convert it into heat when subjected to cyclic or vibrational loading.</rdfs:comment>
+        <rdfs:label>Damping Capacity</rdfs:label>
     </owl:Class>
     
 
@@ -1412,6 +1444,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Visualization">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Analysis"/>
+        <rdfs:comment>Represents the graphical representation of the data collected during the mechanical testing of composites.</rdfs:comment>
+        <rdfs:label>Data Visualization</rdfs:label>
     </owl:Class>
     
 
@@ -1420,6 +1454,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Delamination">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Failure_Mode"/>
+        <rdfs:comment>Represents a mode of failure in composite materials, where layers or plies separate along their interfaces.</rdfs:comment>
+        <rdfs:label>Delamination</rdfs:label>
     </owl:Class>
     
 
@@ -1458,6 +1494,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dimensional_Changes">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:label>Dimensional Changes</rdfs:label>
+        <rdfs:label>Represents the changes in the dimensions or size of a material due to various external factors, such as temperature, moisture, or mechanical stress.</rdfs:label>
     </owl:Class>
     
 
@@ -1554,6 +1592,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ductile_Failure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Failure_Mode"/>
+        <rdfs:comment>Represents a type of failure in which a material undergoes significant plastic deformation before finally fracturing.</rdfs:comment>
+        <rdfs:label>Ductile Failure</rdfs:label>
     </owl:Class>
     
 
@@ -1627,20 +1667,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Conductivity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Conductivity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the measure of a material&apos;s ability to conduct electric current.</rdfs:comment>
+        <rdfs:label>Electrical Conductivity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Power -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Power">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Power"/>
         <rdfs:comment>Represents the amount of electrical energy consumed, generated, or transferred by a system.</rdfs:comment>
         <rdfs:label>Electrical Power</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electriical_Conductivity -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electriical_Conductivity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
     </owl:Class>
     
 
@@ -1679,6 +1721,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Energy_Absorption">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Toughness"/>
+        <rdfs:comment>Represents the capacity of a material to absorb and dissipate energy under applied loads.</rdfs:comment>
+        <rdfs:label>Energy Absorption</rdfs:label>
     </owl:Class>
     
 
@@ -1687,6 +1731,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Environmental_Aging_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aging_Properties"/>
+        <rdfs:comment>Represents the ability of a material to withstand degradation and maintain its mechanical and chemical properties when exposed to harsh environmental conditions over an extended period.</rdfs:comment>
+        <rdfs:label>Environmental Aging Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -1705,6 +1751,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Erosion">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Failure_Mode"/>
+        <rdfs:comment>Represents the gradual removal of material from the surface of a solid due to the mechanical action of external factors, such as abrasion, impact, or fluid flow.</rdfs:comment>
+        <rdfs:label>Erosion</rdfs:label>
     </owl:Class>
     
 
@@ -1731,6 +1779,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Crack_Growth_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Life"/>
+        <rdfs:comment>Represents the rate at which a crack propagates in a material under cyclic loading conditions.</rdfs:comment>
+        <rdfs:label>Fatigue Crack Growth Rate</rdfs:label>
     </owl:Class>
     
 
@@ -1739,6 +1789,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Endurance_Limit">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Life"/>
+        <rdfs:comment>Represents the maximum stress amplitude below which a material can withstand an infinite number of cycles without experiencing fatigue failure.</rdfs:comment>
+        <rdfs:label>Fatigue Endurance Limit</rdfs:label>
     </owl:Class>
     
 
@@ -1747,6 +1799,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Life">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the number of cycles or the time duration a material can withstand cyclic loading before experiencing fatigue failure.</rdfs:comment>
+        <rdfs:label>Fatigue Life</rdfs:label>
     </owl:Class>
     
 
@@ -1755,6 +1809,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fatigue_Life"/>
+        <rdfs:comment>Represents the maximum stress level that a material can sustain for a specific number of cycles without fatigue failure.</rdfs:comment>
+        <rdfs:label>Fatigue Strength</rdfs:label>
     </owl:Class>
     
 
@@ -1849,6 +1905,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Modulus">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stiffness"/>
+        <rdfs:comment>Represents the measure of a material&apos;s stiffness under bending or flexural deformation.</rdfs:comment>
+        <rdfs:label>Flexural Modulus</rdfs:label>
     </owl:Class>
     
 
@@ -1857,6 +1915,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Flexural_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strength"/>
+        <rdfs:comment>Represents the ability of a material to resist bending or breaking under a three-point or four-point bending test.</rdfs:comment>
+        <rdfs:label>Flexural Strength</rdfs:label>
     </owl:Class>
     
 
@@ -1913,6 +1973,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Fracture_Toughness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Toughness"/>
+        <rdfs:comment>Represents the material&apos;s resistance to crack propagation and its ability to withstand crack initiation and growth.</rdfs:comment>
+        <rdfs:label>Fracture Toughness</rdfs:label>
     </owl:Class>
     
 
@@ -2124,6 +2186,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the measure of a material&apos;s resistance to indentation or deformation under applied pressure or load.</rdfs:comment>
+        <rdfs:label>Hardness</rdfs:label>
     </owl:Class>
     
 
@@ -2404,6 +2468,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Impact_Toughness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Toughness"/>
+        <rdfs:comment>Represents the material&apos;s ability to resist fracture under high-speed impact or shock loading.</rdfs:comment>
+        <rdfs:label>Impact Toughness</rdfs:label>
     </owl:Class>
     
 
@@ -2470,6 +2536,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Interfacial_Shear_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Adhesive_Strength"/>
+        <rdfs:comment>Represents the measure of the shear strength between two materials at their interface.</rdfs:comment>
+        <rdfs:label>Interfacial Shear Strength</rdfs:label>
     </owl:Class>
     
 
@@ -2478,6 +2546,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Interlaminar_Shear_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strength"/>
+        <rdfs:comment>Represents the ability of a composite material&apos;s layers (laminae) to resist sliding or shearing relative to each other.</rdfs:comment>
+        <rdfs:label>Interlaminar Shear Strength</rdfs:label>
     </owl:Class>
     
 
@@ -2486,6 +2556,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Internal_Friction">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Damping_Capacity"/>
+        <rdfs:comment>Represents the energy dissipation that occurs within a material when subjected to mechanical stress or cyclic loading.</rdfs:comment>
+        <rdfs:label>Internal Friction</rdfs:label>
     </owl:Class>
     
 
@@ -2685,6 +2757,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Loss_Factor">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Damping_Capacity"/>
+        <rdfs:comment>Represents the ratio of the energy dissipated or lost to the total mechanical energy stored in a material when subjected to cyclic or vibrational loading.</rdfs:comment>
+        <rdfs:label>Loss Factor</rdfs:label>
     </owl:Class>
     
 
@@ -2906,6 +2980,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Moisture_Expansion_Coefficient">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dimensional_Changes"/>
+        <rdfs:comment>Represents the measure of a material&apos;s dimensional change in response to moisture absorption.</rdfs:comment>
+        <rdfs:label>Moisture Expansion Coefficient</rdfs:label>
     </owl:Class>
     
 
@@ -3063,6 +3139,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Optical_Properties">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents a set of characteristics that describe how a material interacts with light.</rdfs:comment>
+        <rdfs:label>Optical Properties</rdfs:label>
     </owl:Class>
     
 
@@ -3121,6 +3199,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Peel_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Adhesive_Strength"/>
+        <rdfs:comment>Represents the measure of the strength required to peel apart two bonded materials at their interface.</rdfs:comment>
+        <rdfs:label>Peel Strength</rdfs:label>
     </owl:Class>
     
 
@@ -3211,7 +3291,10 @@
 
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Post-Testing_Phase -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Post-Testing_Phase"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Post-Testing_Phase">
+        <rdfs:comment>Represents the phase of a mechanical testing process that occurs after the actual testing has been completed. In this phase, data collected during the testing process is analyzed, processed, and interpreted to extract meaningful information about the mechanical properties and behavior of the tested composite material.</rdfs:comment>
+        <rdfs:label>Post-Testing Phase</rdfs:label>
+    </owl:Class>
     
 
 
@@ -3227,7 +3310,10 @@
 
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pre-Testing_Phase -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pre-Testing_Phase"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Pre-Testing_Phase">
+        <rdfs:comment>Represents the initial phase of a mechanical testing process for composites. In this phase, preparations are made before conducting the actual testing.</rdfs:comment>
+        <rdfs:label>Pre-Testing Phase</rdfs:label>
+    </owl:Class>
     
 
 
@@ -3346,6 +3432,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Ra">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Surface_Roughness"/>
+        <rdfs:comment>Represents the arithmetic average of the absolute values of the surface height deviations from the mean line.</rdfs:comment>
+        <rdfs:label>Ra</rdfs:label>
     </owl:Class>
     
 
@@ -3402,6 +3490,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Reflectance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Optical_Properties"/>
+        <rdfs:comment>Represents the measure of a material&apos;s ability to reflect light.</rdfs:comment>
+        <rdfs:label>Reflectance</rdfs:label>
     </owl:Class>
     
 
@@ -3410,6 +3500,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Refractive_Index">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Optical_Properties"/>
+        <rdfs:comment>Represents the measure of a material&apos;s ability to bend or change the direction of light as it passes from one medium to another.</rdfs:comment>
+        <rdfs:label>Refractive Index</rdfs:label>
     </owl:Class>
     
 
@@ -3448,6 +3540,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Residual_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the internal stresses that remain within a material even when it is in a stress-free state.</rdfs:comment>
+        <rdfs:label>Residual Stress</rdfs:label>
     </owl:Class>
     
 
@@ -3496,6 +3590,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Analysis">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Post-Testing_Phase"/>
+        <rdfs:comment>Represents the process of examining and interpreting the data obtained from the mechanical testing of composites.</rdfs:comment>
+        <rdfs:label>Result Analysis</rdfs:label>
     </owl:Class>
     
 
@@ -3504,6 +3600,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Analysis"/>
+        <rdfs:comment>Represents the process of performing mathematical or computational operations on the collected data from mechanical testing of composites to derive specific outcomes.</rdfs:comment>
+        <rdfs:label>Result Calculation</rdfs:label>
     </owl:Class>
     
 
@@ -3522,6 +3620,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Rockwell_Hardness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness"/>
+        <rdfs:comment>Represents a widely used method of hardness testing that measures a material&apos;s hardness based on the depth of penetration of a diamond or a hardened steel ball indenter.</rdfs:comment>
+        <rdfs:label>Rockwell Hardness</rdfs:label>
     </owl:Class>
     
 
@@ -3580,6 +3680,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Rz">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Surface_Roughness"/>
+        <rdfs:comment>Represents the average height difference between the highest peak and the lowest valley within a specified evaluation length on the surface.</rdfs:comment>
+        <rdfs:label>Rz</rdfs:label>
     </owl:Class>
     
 
@@ -3702,6 +3804,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Modulus">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stiffness"/>
+        <rdfs:comment>Represents the measure of a material&apos;s resistance to shear deformation.</rdfs:comment>
+        <rdfs:label>Shear Modulus</rdfs:label>
     </owl:Class>
     
 
@@ -3730,6 +3834,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shear_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strength"/>
+        <rdfs:comment>Represents the ability of a material to resist deformation or failure under an applied shear load.</rdfs:comment>
+        <rdfs:label>Shear Strength</rdfs:label>
     </owl:Class>
     
 
@@ -3767,6 +3873,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Shearing">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Failure_Mode"/>
+        <rdfs:comment>Represents a deformation mechanism in which adjacent layers of a material slide past each other in parallel planes.</rdfs:comment>
+        <rdfs:label>Shearing</rdfs:label>
     </owl:Class>
     
 
@@ -3847,10 +3955,12 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sound_Tranmission_Loss -->
+    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sound_Transmission_Loss -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sound_Tranmission_Loss">
+    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Sound_Transmission_Loss">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acoustic_Properties"/>
+        <rdfs:comment>Represents the reduction of sound energy as it passes through a material or composite structure.</rdfs:comment>
+        <rdfs:label>Sound Transmission Loss</rdfs:label>
     </owl:Class>
     
 
@@ -3905,14 +4015,6 @@
     
 
 
-    <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Statistical_Analysis -->
-
-    <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Statistical_Analysis">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Analysis"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stereolithography -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stereolithography">
@@ -3927,6 +4029,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stiffness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the measure of a material&apos;s resistance to deformation under an applied load.</rdfs:comment>
+        <rdfs:label>Stiffness</rdfs:label>
     </owl:Class>
     
 
@@ -3983,6 +4087,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the ability of a material to withstand applied forces without failure or deformation.</rdfs:comment>
+        <rdfs:label>Strength</rdfs:label>
     </owl:Class>
     
 
@@ -4010,7 +4116,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Surface_Resistivity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Surface_Resistivity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electriical_Conductivity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Conductivity"/>
+        <rdfs:comment>Represents the measure of a material&apos;s resistance to electric current flow across its surface.</rdfs:comment>
+        <rdfs:label>Surface Resistivity</rdfs:label>
     </owl:Class>
     
 
@@ -4019,6 +4127,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Surface_Roughness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the irregularities and deviations on the surface of a material.</rdfs:comment>
+        <rdfs:label>Surface Roughness</rdfs:label>
     </owl:Class>
     
 
@@ -4078,6 +4188,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Residual_Stress">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Residual_Stress"/>
+        <rdfs:comment>Represents the type of residual stress that induces tensile forces within a material.</rdfs:comment>
+        <rdfs:label>Tensile Residual Stress</rdfs:label>
     </owl:Class>
     
 
@@ -4096,6 +4208,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Tensile_Strength">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Strength"/>
+        <rdfs:comment>Represents the ability of a material to resist stretching or elongation under an applied tensile load.</rdfs:comment>
+        <rdfs:label>Tensile Strength</rdfs:label>
     </owl:Class>
     
 
@@ -4203,6 +4317,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Aging_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aging_Properties"/>
+        <rdfs:comment>Represents the capability of a material to resist degradation and maintain its properties when subjected to elevated temperatures over time.</rdfs:comment>
+        <rdfs:label>Thermal Aging Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -4221,6 +4337,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Conductivity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the ability of a material to conduct heat.</rdfs:comment>
+        <rdfs:label>Thermal Conductivity</rdfs:label>
     </owl:Class>
     
 
@@ -4249,6 +4367,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Diffusivity">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Conductivity"/>
+        <rdfs:comment>Represents the rate at which heat diffuses through a material in response to a temperature gradient.</rdfs:comment>
+        <rdfs:label>Thermal Diffusivity</rdfs:label>
     </owl:Class>
     
 
@@ -4257,6 +4377,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Expansion_Coefficient">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Dimensional_Changes"/>
+        <rdfs:comment>Represents the measure of a material&apos;s dimensional change in response to temperature variations.</rdfs:comment>
+        <rdfs:label>Thermal Expansion Coefficient</rdfs:label>
     </owl:Class>
     
 
@@ -4275,6 +4397,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Thermal_Conductivity"/>
+        <rdfs:comment>Represents the opposition a material presents to the flow of heat.</rdfs:comment>
+        <rdfs:label>Thermal Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -4363,6 +4487,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Time_to_Failure">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Creep_Behaviour"/>
+        <rdfs:comment>Represents the duration or time it takes for a material to experience failure or rupture under specific loading conditions, such as constant stress or load at elevated temperatures.</rdfs:comment>
+        <rdfs:label>Time to Failure</rdfs:label>
     </owl:Class>
     
 
@@ -4409,6 +4535,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Toughness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the ability of a material to absorb energy and deform plastically before fracturing.</rdfs:comment>
+        <rdfs:label>Toughness</rdfs:label>
     </owl:Class>
     
 
@@ -4427,6 +4555,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Transmittance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Optical_Properties"/>
+        <rdfs:comment>Represents the measure of a material&apos;s ability to transmit light through its volume.</rdfs:comment>
+        <rdfs:label>Transmittance</rdfs:label>
     </owl:Class>
     
 
@@ -4504,6 +4634,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#UV_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Aging_Properties"/>
+        <rdfs:comment>Represents the ability of a material to resist degradation and damage caused by ultraviolet (UV) radiation from the sun or other UV sources.</rdfs:comment>
+        <rdfs:label>Ultraviolet (UV) Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -4729,6 +4861,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Vickers_Hardness">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Hardness"/>
+        <rdfs:comment>Represents a hardness testing method that measures a material&apos;s hardness based on the size of the indentation produced by a diamond pyramid indenter.</rdfs:comment>
+        <rdfs:label>Vickers Hardness</rdfs:label>
     </owl:Class>
     
 
@@ -4757,6 +4891,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Visualization_Software">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Visualization"/>
+        <rdfs:comment>Represents computer programs or tools used to create visual representations of the data from mechanical testing of composites.</rdfs:comment>
+        <rdfs:label>Visualization Software</rdfs:label>
     </owl:Class>
     
 
@@ -4765,6 +4901,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Visualization__Technique">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Visualization"/>
+        <rdfs:comment>Represents the specific method or approach used to visually present the data from mechanical testing of composites.</rdfs:comment>
+        <rdfs:label>Visualization Technique</rdfs:label>
     </owl:Class>
     
 
@@ -4772,7 +4910,9 @@
     <!-- http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Volume_Resistivity -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Volume_Resistivity">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electriical_Conductivity"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Electrical_Conductivity"/>
+        <rdfs:comment>Represents the measure of a material&apos;s resistance to electric current flow through its volume.</rdfs:comment>
+        <rdfs:label>Volume Resistivity</rdfs:label>
     </owl:Class>
     
 
@@ -4801,6 +4941,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Wear_Rate">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Wear_Resistance"/>
+        <rdfs:comment>Represents the rate of material loss or removal from a surface due to wear during relative motion with another surface or abrasive medium.</rdfs:comment>
+        <rdfs:label>Wear Rate</rdfs:label>
     </owl:Class>
     
 
@@ -4809,6 +4951,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Wear_Resistance">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Result_Calculation"/>
+        <rdfs:comment>Represents the material&apos;s ability to resist damage and deterioration caused by contact with other surfaces or abrasive agents during relative motion.</rdfs:comment>
+        <rdfs:label>Wear Resistance</rdfs:label>
     </owl:Class>
     
 
@@ -4863,6 +5007,8 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Young&apos;s_Modulus">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Stiffness"/>
+        <rdfs:comment>Represents the measure of a material&apos;s stiffness under tensile or compressive deformation.</rdfs:comment>
+        <rdfs:label>Young&apos;s Modulus</rdfs:label>
     </owl:Class>
     
 
@@ -4877,6 +5023,7 @@
 
     <rdf:Description rdf:about="http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Failure_Mode">
         <rdfs:comment>Provides a more detailed description or explanation of the characteristics and behavior associated with the specific failure mode</rdfs:comment>
+        <rdfs:label>Failure Mode</rdfs:label>
     </rdf:Description>
 </rdf:RDF>
 
