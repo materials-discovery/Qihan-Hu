@@ -14,28 +14,28 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/FollowsTestStandard
 :FollowsTestStandard rdf:type owl:ObjectProperty ;
-                     rdfs:domain :Testing_Method ;
+                     rdfs:domain :Testing_Methodology ;
                      rdfs:range :Test_Equipment ;
                      rdfs:comment "Represents the relationship between a testing method and the standard or guideline followed for conducting the test." .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/HasTestParameter
 :HasTestParameter rdf:type owl:ObjectProperty ;
-                  rdfs:domain :Testing_Method ;
+                  rdfs:domain :Testing_Methodology ;
                   rdfs:range :Test_Parameter ;
                   rdfs:comment "Represents the relationship between a testing method and the parameters measured or controlled during the test." .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/HasTestResult
 :HasTestResult rdf:type owl:ObjectProperty ;
-               rdfs:domain :Testing_Method ;
+               rdfs:domain :Testing_Methodology ;
                rdfs:range :Result_Calculation ;
                rdfs:comment "Represents the relationship between a testing method and the results obtained from the test." .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/HasTestSpecimen
 :HasTestSpecimen rdf:type owl:ObjectProperty ;
-                 rdfs:domain :Testing_Method ;
+                 rdfs:domain :Testing_Methodology ;
                  rdfs:range :Test_Specimen_Geometry ;
                  rdfs:comment "Represents the relationship between a testing method and the test specimen required for conducting the test." .
 
@@ -49,7 +49,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/UsesTestEquipment
 :UsesTestEquipment rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Testing_Method ;
+                   rdfs:domain :Testing_Methodology ;
                    rdfs:range :Test_Equipment ;
                    rdfs:comment "Represents the relationship between a testing method and the equipment or instruments used to perform the test." .
 
@@ -61,7 +61,7 @@
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/hasTestingMethod
 :hasTestingMethod rdf:type owl:ObjectProperty ;
                   rdfs:domain :Composite_Material ;
-                  rdfs:range :Testing_Method ;
+                  rdfs:range :Testing_Methodology ;
                   rdfs:comment "Represents the relationship between a composite material and the testing method used for its mechanical testing." .
 
 
@@ -907,7 +907,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Compression_Testing
 :Compression_Testing rdf:type owl:Class ;
-                     rdfs:subClassOf :Testing_Method ;
+                     rdfs:subClassOf :Testing_Methodology ;
                      rdfs:comment "Represents a testing method used to evaluate the mechanical properties of materials under compressive loads." ;
                      rdfs:label "Compression Testing" .
 
@@ -1047,7 +1047,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Creep_Testing
 :Creep_Testing rdf:type owl:Class ;
-               rdfs:subClassOf :Testing_Method ;
+               rdfs:subClassOf :Testing_Methodology ;
                rdfs:comment "Represents a type of mechanical testing used to study the time-dependent deformation behavior of materials, when subjected to a constant load or stress over an extended period." ;
                rdfs:label "Creep Testing" .
 
@@ -1400,7 +1400,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Fatigue_Testing
 :Fatigue_Testing rdf:type owl:Class ;
-                 rdfs:subClassOf :Testing_Method ;
+                 rdfs:subClassOf :Testing_Methodology ;
                  rdfs:comment "Represents a type of mechanical testing used to evaluate the fatigue behavior and durability of materials under cyclic loading conditions." ;
                  rdfs:label "Fatigue Testing" .
 
@@ -1484,7 +1484,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Flexural_Testing
 :Flexural_Testing rdf:type owl:Class ;
-                  rdfs:subClassOf :Testing_Method ;
+                  rdfs:subClassOf :Testing_Methodology ;
                   rdfs:comment "Represents a type of mechanical testing used to evaluate the flexural or bending properties of materials." ;
                   rdfs:label "Flexural Testing" .
 
@@ -1519,7 +1519,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Fracture_Toughness_Testing
 :Fracture_Toughness_Testing rdf:type owl:Class ;
-                            rdfs:subClassOf :Testing_Method ;
+                            rdfs:subClassOf :Testing_Methodology ;
                             rdfs:comment "Represents a type of mechanical testing used to measure the fracture toughness of materials." ;
                             rdfs:label "Fracture Toughness Testing" .
 
@@ -1679,7 +1679,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Hardness_Testing
 :Hardness_Testing rdf:type owl:Class ;
-                  rdfs:subClassOf :Testing_Method ;
+                  rdfs:subClassOf :Testing_Methodology ;
                   rdfs:label "Hardness Testing" .
 
 
@@ -1862,7 +1862,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Impact_Testing
 :Impact_Testing rdf:type owl:Class ;
-                rdfs:subClassOf :Testing_Method ;
+                rdfs:subClassOf :Testing_Methodology ;
                 rdfs:comment "Represents a type of mechanical testing used to assess the ability of materials to resist sudden and dynamic loading." ;
                 rdfs:label "Impact Testing" .
 
@@ -2138,7 +2138,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Material_Manufacturing
 :Material_Manufacturing rdf:type owl:Class ;
-                        rdfs:subClassOf :Sample ;
+                        rdfs:subClassOf :Material ;
                         rdfs:comment "Represents the process of producing or fabricating composite materials and other types of materials." ;
                         rdfs:label "Material Manufacturing" .
 
@@ -2396,7 +2396,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Peel_Testing
 :Peel_Testing rdf:type owl:Class ;
-              rdfs:subClassOf :Testing_Method ;
+              rdfs:subClassOf :Testing_Methodology ;
               rdfs:comment "Represents a type of mechanical testing used to evaluate the bond strength or adhesion of materials, by measuring the force required to separate two bonded surfaces." ;
               rdfs:label "Peel Testing" .
 
@@ -2796,7 +2796,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Shear-Lap_Testing
 :Shear-Lap_Testing rdf:type owl:Class ;
-                   rdfs:subClassOf :Testing_Method ;
+                   rdfs:subClassOf :Testing_Methodology ;
                    rdfs:comment "Represents a type of mechanical testing used to determine the shear strength of adhesively bonded materials,  with a lap joint configuration." ;
                    rdfs:label "Shear-Lap Testing" .
 
@@ -2845,7 +2845,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Shear_Testing
 :Shear_Testing rdf:type owl:Class ;
-               rdfs:subClassOf :Testing_Method ;
+               rdfs:subClassOf :Testing_Methodology ;
                rdfs:comment "Represents a type of mechanical testing used to determine the shear strength and deformation behavior of materials, including composites, under applied forces parallel to the plane of the material." ;
                rdfs:label "Shear Testing" .
 
@@ -3120,7 +3120,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Tensile_Testing
 :Tensile_Testing rdf:type owl:Class ;
-                 rdfs:subClassOf :Testing_Method ;
+                 rdfs:subClassOf :Testing_Methodology ;
                  rdfs:comment "Represents a type of mechanical testing used to determine the tensile properties of materials, by subjecting a specimen to uniaxial tensile forces." ;
                  rdfs:label "Tensile Testing" .
 
@@ -3175,11 +3175,11 @@
                      rdfs:label "Testing Institution" .
 
 
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Testing_Method
-:Testing_Method rdf:type owl:Class ;
-                rdfs:subClassOf :Test ;
-                rdfs:comment "Represents a specific procedure or technique used to perform mechanical testing on materials, including composites." ;
-                rdfs:label "Testing Method" .
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Testing_Methodology
+:Testing_Methodology rdf:type owl:Class ;
+                     rdfs:subClassOf :Test ;
+                     rdfs:comment "Represents a specific procedure or technique used to perform mechanical testing on materials, including composites." ;
+                     rdfs:label "Testing Method" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Thermal_Aging_Resistance
@@ -3247,7 +3247,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Thermal_Testing
 :Thermal_Testing rdf:type owl:Class ;
-                 rdfs:subClassOf :Testing_Method ;
+                 rdfs:subClassOf :Testing_Methodology ;
                  rdfs:comment "Represents a type of testing used to assess the thermal properties and behavior of materials, under different temperature conditions." ;
                  rdfs:label "Thermal Testing" .
 
