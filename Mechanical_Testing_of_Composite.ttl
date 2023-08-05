@@ -162,6 +162,32 @@
 #    Classes
 #################################################################
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Analysis
+:Data_Analysis rdf:type owl:Class ;
+               rdfs:subClassOf :Data ;
+               rdfs:comment "Represents the process of examining and interpreting the data obtained from the mechanical testing of composites." ;
+               rdfs:label "Data Analysis" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Analysis_Tool
+:Data_Analysis_Tool rdf:type owl:Class ;
+                    rdfs:subClassOf :Data_Analysis .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Storage
+:Data_Storage rdf:type owl:Class ;
+              rdfs:subClassOf :Data ;
+              rdfs:comment "Represents the process of storing, managing, and organizing data obtained from mechanical testing of composites." ;
+              rdfs:label "Data Storage" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Storage_Tool
+:Data_Storage_Tool rdf:type owl:Class ;
+                   rdfs:subClassOf :Data_Storage ;
+                   rdfs:comment "Represents software or applications used for managing and organizing testing data in the context of mechanical testing of composites" ;
+                   rdfs:label "Data Storage Tool" .
+
+
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Experiment
 :Experiment rdf:type owl:Class .
 
@@ -1102,9 +1128,16 @@
                   rdfs:label "Damping Capacity" .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data
+:Data rdf:type owl:Class ;
+      rdfs:subClassOf :Test ;
+      rdfs:comment "Represents the information obtained from mechanical testing of composites." ;
+      rdfs:label "Data" .
+
+
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data_Visualization
 :Data_Visualization rdf:type owl:Class ;
-                    rdfs:subClassOf :Result_Analysis ;
+                    rdfs:subClassOf :Data_Analysis ;
                     rdfs:comment "Represents the graphical representation of the data collected during the mechanical testing of composites." ;
                     rdfs:label "Data Visualization" .
 
@@ -1334,7 +1367,7 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Failure_Mode
 :Failure_Mode rdf:type owl:Class ;
-              rdfs:subClassOf :Result_Analysis .
+              rdfs:subClassOf :Data_Analysis .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Fatigue_Crack_Growth_Rate
@@ -2621,16 +2654,9 @@
                      rdfs:label "Resonance Frequency" .
 
 
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Result_Analysis
-:Result_Analysis rdf:type owl:Class ;
-                 rdfs:subClassOf :Test ;
-                 rdfs:comment "Represents the process of examining and interpreting the data obtained from the mechanical testing of composites." ;
-                 rdfs:label "Result Analysis" .
-
-
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Result_Calculation
 :Result_Calculation rdf:type owl:Class ;
-                    rdfs:subClassOf :Result_Analysis ;
+                    rdfs:subClassOf :Data_Analysis ;
                     rdfs:comment "Represents the process of performing mathematical or computational operations on the collected data from mechanical testing of composites to derive specific outcomes." ;
                     rdfs:label "Result Calculation" .
 
