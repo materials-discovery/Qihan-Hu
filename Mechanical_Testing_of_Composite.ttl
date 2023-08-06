@@ -12,22 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#follows
-:follows rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#has
-:has rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#isConductedby
-:isConductedby rdf:type owl:ObjectProperty .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#utilizes
-:utilizes rdf:type owl:ObjectProperty .
-
-
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/FollowsTestStandard
 :FollowsTestStandard rdf:type owl:ObjectProperty ;
                      rdfs:domain :Testing_Methodology ;
@@ -70,6 +54,14 @@
                    rdfs:comment "Represents the relationship between a testing method and the equipment or instruments used to perform the test." .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/follows
+:follows rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/has
+:has rdf:type owl:ObjectProperty .
+
+
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/hasPart
 :hasPart rdf:type owl:ObjectProperty .
 
@@ -81,19 +73,17 @@
                   rdfs:comment "Represents the relationship between a composite material and the testing method used for its mechanical testing." .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/isConductedby
+:isConductedby rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/utilizes
+:utilizes rdf:type owl:ObjectProperty .
+
+
 #################################################################
 #    Data properties
 #################################################################
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#name
-:name rdf:type owl:DatatypeProperty ,
-               owl:FunctionalProperty ;
-      rdfs:range xsd:string .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#value
-:value rdf:type owl:DatatypeProperty .
-
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Equipment_Model
 :Equipment_Model rdf:type owl:DatatypeProperty ;
@@ -166,93 +156,19 @@
              rdfs:comment "Represents the unique identifier or code assigned to a test specimen." .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/name
+:name rdf:type owl:DatatypeProperty ,
+               owl:FunctionalProperty ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/value
+:value rdf:type owl:DatatypeProperty .
+
+
 #################################################################
 #    Classes
 #################################################################
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Analysis
-:Data_Analysis rdf:type owl:Class ;
-               rdfs:subClassOf :Data ;
-               rdfs:comment "Represents the process of examining and interpreting the data obtained from the mechanical testing of composites." ;
-               rdfs:label "Data Analysis" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Analysis_Tool
-:Data_Analysis_Tool rdf:type owl:Class ;
-                    rdfs:subClassOf :Data_Analysis .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Storage
-:Data_Storage rdf:type owl:Class ;
-              rdfs:subClassOf :Data ;
-              rdfs:comment "Represents the process of storing, managing, and organizing data obtained from mechanical testing of composites." ;
-              rdfs:label "Data Storage" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Data_Storage_Tool
-:Data_Storage_Tool rdf:type owl:Class ;
-                   rdfs:subClassOf :Data_Storage ;
-                   rdfs:comment "Represents software or applications used for managing and organizing testing data in the context of mechanical testing of composites" ;
-                   rdfs:label "Data Storage Tool" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Experiment
-:Experiment rdf:type owl:Class .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Institution_Location
-:Institution_Location rdf:type owl:Class ;
-                      rdfs:subClassOf :Testing_Institution ;
-                      rdfs:comment "Represents the location of an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
-                      rdfs:label "Institution Location" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Institution_Name
-:Institution_Name rdf:type owl:Class ;
-                  rdfs:subClassOf :Testing_Institution ;
-                  rdfs:comment "Represents the name of an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
-                  rdfs:label "Institution name" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Institution_Type
-:Institution_Type rdf:type owl:Class ;
-                  rdfs:subClassOf :Testing_Institution ;
-                  rdfs:comment "Represents the type of  an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
-                  rdfs:label "Institution Type" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Laboratory
-:Laboratory rdf:type owl:Class ;
-            rdfs:subClassOf :Testing_Institution ;
-            rdfs:comment "Represents a physical facility or location where the mechanical testing of composites is conducted." ;
-            rdfs:label "Laboratory" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Laboratory_Name
-:Laboratory_Name rdf:type owl:Class ;
-                 rdfs:subClassOf :Laboratory ;
-                 rdfs:comment "Represents the name a physical facility or location where the mechanical testing of composites is conducted." ;
-                 rdfs:label "Laboratory name" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Personnel
-:Personnel rdf:type owl:Class ;
-           rdfs:subClassOf :Laboratory ;
-           rdfs:comment "Represents individuals involved in the mechanical testing of composites, including technicians, engineers, researchers, and operators." ;
-           rdfs:label "Personnel" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Personnel_Name
-:Personnel_Name rdf:type owl:Class ;
-                rdfs:subClassOf :Personnel ;
-                rdfs:comment "Represents the name of individuals involved in the mechanical testing of composites, including technicians, engineers, researchers, and operators" ;
-                rdfs:label "Personnel name" .
-
-
-###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Test
-:Test rdf:type owl:Class ;
-      rdfs:subClassOf :Sample .
-
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acidity/Alkalinity_Level
 <http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12#Acidity/Alkalinity_Level> rdf:type owl:Class ;
@@ -889,7 +805,9 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Composite_Material
 :Composite_Material rdf:type owl:Class ;
-                    rdfs:subClassOf :Material .
+                    rdfs:subClassOf :Material ;
+                    rdfs:comment "Represents a material composed of two or more distinct constituents with different properties." ;
+                    rdfs:label "Composite Material" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Compression_Instron_Machine
@@ -1143,6 +1061,32 @@
       rdfs:label "Data" .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data_Analysis
+:Data_Analysis rdf:type owl:Class ;
+               rdfs:subClassOf :Data ;
+               rdfs:comment "Represents the process of examining and interpreting the data obtained from the mechanical testing of composites." ;
+               rdfs:label "Data Analysis" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data_Analysis_Tool
+:Data_Analysis_Tool rdf:type owl:Class ;
+                    rdfs:subClassOf :Data_Analysis .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data_Storage
+:Data_Storage rdf:type owl:Class ;
+              rdfs:subClassOf :Data ;
+              rdfs:comment "Represents the process of storing, managing, and organizing data obtained from mechanical testing of composites." ;
+              rdfs:label "Data Storage" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data_Storage_Tool
+:Data_Storage_Tool rdf:type owl:Class ;
+                   rdfs:subClassOf :Data_Storage ;
+                   rdfs:comment "Represents software or applications used for managing and organizing testing data in the context of mechanical testing of composites" ;
+                   rdfs:label "Data Storage Tool" .
+
+
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Data_Visualization
 :Data_Visualization rdf:type owl:Class ;
                     rdfs:subClassOf :Data_Analysis ;
@@ -1364,6 +1308,12 @@
          rdfs:subClassOf :Failure_Mode ;
          rdfs:comment "Represents the gradual removal of material from the surface of a solid due to the mechanical action of external factors, such as abrasion, impact, or fluid flow." ;
          rdfs:label "Erosion" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Experiment
+:Experiment rdf:type owl:Class ;
+            rdfs:comment "Represents a controlled procedure or investigation designed to gather data and test hypotheses related to material mechanical properties." ;
+            rdfs:label "Experiment" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Extensometer
@@ -1910,6 +1860,27 @@
                    rdfs:label "Injection Molding" .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Institution_Location
+:Institution_Location rdf:type owl:Class ;
+                      rdfs:subClassOf :Testing_Institution ;
+                      rdfs:comment "Represents the location of an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
+                      rdfs:label "Institution Location" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Institution_Name
+:Institution_Name rdf:type owl:Class ;
+                  rdfs:subClassOf :Testing_Institution ;
+                  rdfs:comment "Represents the name of an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
+                  rdfs:label "Institution name" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Institution_Type
+:Institution_Type rdf:type owl:Class ;
+                  rdfs:subClassOf :Testing_Institution ;
+                  rdfs:comment "Represents the type of  an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
+                  rdfs:label "Institution Type" .
+
+
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Instron_Machine
 :Instron_Machine rdf:type owl:Class ;
                  rdfs:subClassOf :Test_Equipment ;
@@ -1998,6 +1969,20 @@
                           rdfs:subClassOf :Continuous_Fiber_Composite ;
                           rdfs:comment "Represents a composite material in which the reinforcement fibers are arranged in a knitted fabric structure." ;
                           rdfs:label "Knitted Fabric Composite" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Laboratory
+:Laboratory rdf:type owl:Class ;
+            rdfs:subClassOf :Testing_Institution ;
+            rdfs:comment "Represents a physical facility or location where the mechanical testing of composites is conducted." ;
+            rdfs:label "Laboratory" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Laboratory_Name
+:Laboratory_Name rdf:type owl:Class ;
+                 rdfs:subClassOf :Laboratory ;
+                 rdfs:comment "Represents the name a physical facility or location where the mechanical testing of composites is conducted." ;
+                 rdfs:label "Laboratory name" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Laser_Cutting_Machine
@@ -2141,7 +2126,9 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Material
 :Material rdf:type owl:Class ;
-          rdfs:subClassOf :Experiment .
+          rdfs:subClassOf :Experiment ;
+          rdfs:comment "Represents a substance or mixture of substances that constitutes an object." ;
+          rdfs:label "Material" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Material_Manufacturing
@@ -2414,6 +2401,20 @@
                            rdfs:subClassOf :Orientation ;
                            rdfs:comment "Represents the orientation of a material aligned perpendicular to a specific reference direction or axis." ;
                            rdfs:label "Perpendicular Orientation" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Personnel
+:Personnel rdf:type owl:Class ;
+           rdfs:subClassOf :Laboratory ;
+           rdfs:comment "Represents individuals involved in the mechanical testing of composites, including technicians, engineers, researchers, and operators." ;
+           rdfs:label "Personnel" .
+
+
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Personnel_Name
+:Personnel_Name rdf:type owl:Class ;
+                rdfs:subClassOf :Personnel ;
+                rdfs:comment "Represents the name of individuals involved in the mechanical testing of composites, including technicians, engineers, researchers, and operators" ;
+                rdfs:label "Personnel name" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Polishing_Cloth
@@ -2742,8 +2743,8 @@
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Sample
 :Sample rdf:type owl:Class ;
         rdfs:subClassOf :Experiment ;
-        rdfs:comment "Represents the initial phase of a mechanical testing process for composites. In this phase, preparations are made before conducting the actual testing." ;
-        rdfs:label "Pre-Testing Phase" .
+        rdfs:comment "Represents a portion of a material or composite material taken for testing or analysis." ;
+        rdfs:label "Sample" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Sand_Slingers
@@ -2940,7 +2941,9 @@
                           [ rdf:type owl:Restriction ;
                             owl:onProperty :hasPart ;
                             owl:someValuesFrom :Specimen
-                          ] .
+                          ] ;
+          rdfs:comment "Represents a physical sample prepared for mechanical testing or analysis." ;
+          rdfs:label "Specimen" .
 
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Specimen_Cleaning_Equipment
@@ -3133,6 +3136,13 @@
                  rdfs:label "Tensile Testing" .
 
 
+###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Test
+:Test rdf:type owl:Class ;
+      rdfs:subClassOf :Sample ;
+      rdfs:comment "Represents a procedure or experiment conducted to evaluate the mechanical properties of materials or composites." ;
+      rdfs:label "Test" .
+
+
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Test_Duration
 :Test_Duration rdf:type owl:Class ;
                rdfs:subClassOf :Time ;
@@ -3170,8 +3180,8 @@
 
 ###  http://www.semanticweb.org/qihan/ontologies/2023/6/untitled-ontology-12/Test_Standards
 :Test_Standards rdf:type owl:Class ;
-                rdfs:subClassOf :Test ,
-                                :Specimen ;
+                rdfs:subClassOf :Specimen ,
+                                :Test ;
                 rdfs:comment "Represents a set of standardized guidelines, procedures, and specifications developed by various organizations and regulatory bodies to ensure consistency and reliability in conducting mechanical tests on materials, including composites." ;
                 rdfs:label "Test Standards" .
 
