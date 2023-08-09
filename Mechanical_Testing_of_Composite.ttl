@@ -12,13 +12,6 @@
 #    Object Properties
 #################################################################
 
-###  http://www.materials-informatics.org/mechanical-testing/FollowsTestStandard
-:FollowsTestStandard rdf:type owl:ObjectProperty ;
-                     rdfs:domain :Testing_Methodology ;
-                     rdfs:range :Test_Equipment ;
-                     rdfs:comment "Represents the relationship between a testing method and the standard or guideline followed for conducting the test." .
-
-
 ###  http://www.materials-informatics.org/mechanical-testing/HasTestParameter
 :HasTestParameter rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf :hasPart ;
@@ -56,20 +49,6 @@
 ###  http://www.materials-informatics.org/mechanical-testing/RelativeProperty
 :RelativeProperty rdf:type owl:ObjectProperty ;
                   rdfs:subPropertyOf :MereotopologicalProperty .
-
-
-###  http://www.materials-informatics.org/mechanical-testing/UsedForSpecimenPreparation
-:UsedForSpecimenPreparation rdf:type owl:ObjectProperty ;
-                            rdfs:domain :Specimen_Preparation_Equipment ;
-                            rdfs:range :Material_Manufacturing ,
-                                       :Test_Specimen_Geometry .
-
-
-###  http://www.materials-informatics.org/mechanical-testing/UsesTestEquipment
-:UsesTestEquipment rdf:type owl:ObjectProperty ;
-                   rdfs:domain :Testing_Methodology ;
-                   rdfs:range :Test_Equipment ;
-                   rdfs:comment "Represents the relationship between a testing method and the equipment or instruments used to perform the test." .
 
 
 ###  http://www.materials-informatics.org/mechanical-testing/follows
@@ -835,7 +814,9 @@
 
 ###  http://www.materials-informatics.org/mechanical-testing/Cognition
 :Cognition rdf:type owl:Class ;
-           rdfs:subClassOf :Process .
+           rdfs:subClassOf :Process ;
+           rdfs:comment "Represents the mental processes involved in acquiring, processing, and understanding information, often crucial in interpreting and analyzing test results." ;
+           rdfs:label "Cognition" .
 
 
 ###  http://www.materials-informatics.org/mechanical-testing/Coir_Fiber_Composite
@@ -1396,7 +1377,7 @@
 ###  http://www.materials-informatics.org/mechanical-testing/Failure_Mode
 :Failure_Mode rdf:type owl:Class ;
               owl:equivalentClass :Failure_Mode_Construction ;
-              rdfs:subClassOf :Property ;
+              rdfs:subClassOf :Physical_Property ;
               rdfs:label "Failure Mode" .
 
 
@@ -1930,6 +1911,11 @@
                                                 rdfs:label "Incorporation of Nanomaterials into Composites" .
 
 
+###  http://www.materials-informatics.org/mechanical-testing/Indentifying_Property
+:Indentifying_Property rdf:type owl:Class ;
+                       rdfs:subClassOf :Property .
+
+
 ###  http://www.materials-informatics.org/mechanical-testing/Industry_Testing_Laboratory
 :Industry_Testing_Laboratory rdf:type owl:Class ;
                              rdfs:subClassOf :Institution_Type ;
@@ -2235,7 +2221,7 @@
 
 ###  http://www.materials-informatics.org/mechanical-testing/Material_Manufacturing
 :Material_Manufacturing rdf:type owl:Class ;
-                        rdfs:subClassOf :Work ,
+                        rdfs:subClassOf :Process ,
                                         [ rdf:type owl:Restriction ;
                                           owl:onProperty :hasPart ;
                                           owl:someValuesFrom :Process_Step
@@ -2251,6 +2237,11 @@
 
 ###  http://www.materials-informatics.org/mechanical-testing/Matter
 :Matter rdf:type owl:Class .
+
+
+###  http://www.materials-informatics.org/mechanical-testing/Measurement
+:Measurement rdf:type owl:Class ;
+             rdfs:subClassOf :Process_Step .
 
 
 ###  http://www.materials-informatics.org/mechanical-testing/Mechanical_Power
@@ -2559,6 +2550,11 @@
                 rdfs:label "Personnel name" .
 
 
+###  http://www.materials-informatics.org/mechanical-testing/Physical_Property
+:Physical_Property rdf:type owl:Class ;
+                   rdfs:subClassOf :Property .
+
+
 ###  http://www.materials-informatics.org/mechanical-testing/Polishing_Cloth
 :Polishing_Cloth rdf:type owl:Class ;
                  rdfs:subClassOf :Polishing_Equipment ;
@@ -2769,6 +2765,11 @@
                      rdfs:subClassOf :Temperature ;
                      rdfs:comment "Represents lower-than-ambient temperatures applied to composite material specimens during mechanical testing. It involves subjecting the specimens to reduced thermal conditions for specific testing purposes." ;
                      rdfs:label "Reduced Temperature" .
+
+
+###  http://www.materials-informatics.org/mechanical-testing/Reference_Property
+:Reference_Property rdf:type owl:Class ;
+                    rdfs:subClassOf :Property .
 
 
 ###  http://www.materials-informatics.org/mechanical-testing/Reflectance
@@ -3383,8 +3384,7 @@
 
 ###  http://www.materials-informatics.org/mechanical-testing/Test_Environment
 :Test_Environment rdf:type owl:Class ;
-                  rdfs:subClassOf :Environment ,
-                                  :Property ;
+                  rdfs:subClassOf :Environment ;
                   rdfs:comment "Represents the surrounding conditions and external factors that influence the mechanical test but are not directly controlled or intentionally varied during the test. The test environment includes aspects such as temperature, humidity, pressure, and other conditions in which the test specimen is subjected to during the test." ;
                   rdfs:label "Test Environment" .
 
@@ -3398,7 +3398,7 @@
 
 ###  http://www.materials-informatics.org/mechanical-testing/Test_Parameter
 :Test_Parameter rdf:type owl:Class ;
-                rdfs:subClassOf :Property ,
+                rdfs:subClassOf :Physical_Property ,
                                 [ rdf:type owl:Restriction ;
                                   owl:onProperty :hasPart ;
                                   owl:someValuesFrom :Mathematical
@@ -3415,21 +3415,21 @@
 ###  http://www.materials-informatics.org/mechanical-testing/Test_Specimen_Geometry
 :Test_Specimen_Geometry rdf:type owl:Class ;
                         rdfs:subClassOf :Geometrical ,
-                                        :Property ;
+                                        :Physical_Property ;
                         rdfs:comment "Represents a category of different geometric shapes and configurations used for creating test specimens or samples for various mechanical tests." ;
                         rdfs:label "Test Specimen Geometry" .
 
 
 ###  http://www.materials-informatics.org/mechanical-testing/Test_Standards
 :Test_Standards rdf:type owl:Class ;
-                rdfs:subClassOf :Property ;
+                rdfs:subClassOf :Reference_Property ;
                 rdfs:comment "Represents a set of standardized guidelines, procedures, and specifications developed by various organizations and regulatory bodies to ensure consistency and reliability in conducting mechanical tests on materials, including composites." ;
                 rdfs:label "Test Standards" .
 
 
 ###  http://www.materials-informatics.org/mechanical-testing/Testing_Institution
 :Testing_Institution rdf:type owl:Class ;
-                     rdfs:subClassOf :Property ;
+                     rdfs:subClassOf :Indentifying_Property ;
                      rdfs:comment "Represents an organization or facility that is responsible for conducting mechanical testing on composites and other materials." ;
                      rdfs:label "Testing Institution" .
 
